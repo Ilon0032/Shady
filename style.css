@@ -578,8 +578,24 @@ nav a {
 /*-----ABOUT-----*/
 
 
+#about_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about_image {
+    height: 100vh;
 
 
+    background-image: url(billeder/tilomside.jpg);
+
+}
+
+.about_text {
+    height: 100vh;
+    ;
+    border: solid 2px black;
+}
 
 
 
