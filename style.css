@@ -1,6 +1,13 @@
 /*-----GENERELLE INDSTILLINGER-----*/
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
 
+img {
+    100%;
+}
 
 
 
