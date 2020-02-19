@@ -694,6 +694,25 @@ nav a {
 /*-----CONTACT-----*/
 
 
+#contact_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.contact_image {
+
+    background-image: url(billeder/tilkontaktside.jpg);
+
+}
+
+.contact_text {
+    height: 100vh;
+    ;
+    border: solid 2px black;
+}
+
+
 
 
 
