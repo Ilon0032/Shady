@@ -71,9 +71,14 @@ a:active {
     color: #AAA69B;
 }
 
+/*tilbageknap*/
 
+.tilbage {
+    background-image: url(billeder/backbuttongreen.svg);
+    height: 22px;
+    width: 40px;
 
-
+}
 
 
 
@@ -951,6 +956,12 @@ aside {
 
     }
 
+    .tilbage {
+        background-image: url(billeder/backbuttongreen.svg);
+        height: 44px;
+        width: 80px;
+
+    }
 
 
 
