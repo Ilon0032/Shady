@@ -59,6 +59,17 @@ a {
 
 }
 
+a {
+    color: #27331B;
+}
+
+a:hover {
+    border-top: #AAA69B solid 2px;
+}
+
+a:active {
+    color: #AAA69B;
+}
 
 
 
@@ -1017,7 +1028,7 @@ aside {
 
     .about_text p {
         text-align: left;
-        margin: 10px;
+        margin: 20px;
     }
 
 
