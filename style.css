@@ -748,6 +748,9 @@ aside {
 
 .contact_image {
     background-image: url(billeder/tilkontaktside1.jpg);
+    object-fit: contain;
+    width: 100%;
+
 
 }
 
