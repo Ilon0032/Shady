@@ -704,18 +704,22 @@ nav a {
 
 
 #contact_container {
-    margin: 0 auto;
+    object-fit: contain;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat (autofill, min-max(300px, 1fr));
 
 
 }
 
+
+
+
 .contact_image {
-    background-image: url(billeder/tilkontaktside1.jpg);
-    object-fit: contain;
-    width: 100%;
+    background-image: url(billeder/contactimage1.jpg);
+    background-repeat: no-repeat;
+
+
 
 
 }
@@ -723,6 +727,12 @@ nav a {
 .contact_text {
     border: solid 1px black;
 }
+
+.contact_text h2 {
+    text-align: center;
+}
+
+
 
 
 
