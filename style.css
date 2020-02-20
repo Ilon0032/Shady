@@ -23,9 +23,7 @@ header {
 
 }
 
-body {
-    max-width: 380px;
-}
+
 
 
 
@@ -863,9 +861,7 @@ aside {
 
 
 @media only screen and (min-width: 600px) {
-    body {
-        max-width: 1400px;
-    }
+
 
     header {
         display: grid;
@@ -890,8 +886,7 @@ aside {
     }
 
     #logo {
-        background-image: ;
-        margin: auto 0;
+
         padding: 30px;
     }
 
@@ -947,7 +942,7 @@ aside {
         width: 100%;
         background-color: whitesmoke;
         margin-top: 5vw;
-        padding-left: 16vw;
+
 
 
 
