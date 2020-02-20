@@ -714,21 +714,20 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
 
 #contact_container {
-    object-fit: contain;
-    height: 400px;
-    height: 100vw;
-    display: grid;
-    grid-template-columns: repeat (autofill, min-max(300px, 1fr));
+
+    /*display: grid;
+    grid-template-columns: repeat (autofill, min-max(300px, 1fr));*/
 
 
 }
 
 
-
-
 .contact_image {
     background-image: url(billeder/contactimage1.jpg);
     background-repeat: no-repeat;
+    object-fit: contain;
+    height: 400px;
+    height: 100vw;
 
 
 
@@ -739,11 +738,9 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     border: solid 1px black;
 }
 
-.contact_text h2 {
+.contact_text h2 #contact_container {
     text-align: center;
 }
-
-
 
 
 
@@ -957,6 +954,28 @@ aside {
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*---Mediaquery contact*---*/
+
+    #contact_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
 
 
 
