@@ -622,8 +622,24 @@ aside {
 
 /*-----ABOUT-----*/
 
+.about_image {
+    background-image: url(billeder/tilomside.jpg);
+    height: 400px;
+    width: 100vw;
+    object-fit: contain;
 
+}
 
+.about_text h2,
+#about_container h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.about_text p {
+    text-align: left;
+    margin: 10px;
+}
 
 
 
