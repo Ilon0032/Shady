@@ -19,9 +19,13 @@ header {
 #logo {
     display: flex;
     float: right;
+    padding: 10px;
 
 }
 
+body {
+    max-width: 380px;
+}
 
 
 
@@ -525,45 +529,7 @@ nav a {
 
 
 
-/*----- FOOTER -----*/
 
-#footerindhold {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 100%;
-    background-color: whitesmoke;
-    margin-top: 5vw;
-    padding-left: 5vw;
-
-}
-
-.adresse,
-aside {
-    margin: 5px 10px;
-    padding: 20px;
-
-}
-
-
-.kontakt_titel {
-    font-size: 22px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-
-#kontakt p {
-    margin: 0 0 10px 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-}
-
-.kontakt_img {
-    width: 5vw;
-}
-
-
-/*----- FOOTER SLUT -----*/
 
 
 
@@ -855,11 +821,55 @@ aside {
 
 
 /*-----CONTACT SLUT-----*/
+/*------FOOTER---------*/
+
+
+#footerindhold {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 5vw;
+    padding-left: 5vw;
+
+}
+
+.adresse,
+aside {
+    margin: 5px 10px;
+    padding: 20px;
+
+}
+
+
+.kontakt_titel {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#kontakt p {
+    margin: 0 0 10px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.kontakt_img {
+    width: 5vw;
+}
+
+
+/*----- FOOTER SLUT -----*/
 
 /*-----MEDIA QUERIES-----*/
 
 
 @media only screen and (min-width: 600px) {
+    body {
+        max-width: 1400px;
+    }
+
     header {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -886,36 +896,42 @@ aside {
         background-image: ;
         margin: auto 0;
         padding: 30px;
-
     }
+
+
 
 
 
     /* mediaquery ABOUT */
     #about_container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .about_image {
-        height: 100vh;
-
-
-        background-image: url(billeder/tilomside.jpg);
+        grid-template-columns: repeat(2, 1fr);
 
     }
 
     .about_text {
-        height: 100vh;
+        width: 100%;
 
-        border: solid 2px black;
     }
 
+    .about_image {
+        background-image: url(billeder/tilomside.jpg);
+        height: 100vh;
+        width: 100%;
+        object-fit: contain;
 
+    }
 
+    .about_text h2,
+    #about_container h1 {
+        text-align: center;
+        padding: 10px;
+    }
 
-
-
+    .about_text p {
+        text-align: left;
+        margin: 10px;
+    }
 
 
 
@@ -971,7 +987,6 @@ aside {
 }
 
 
-}
 
 
 
