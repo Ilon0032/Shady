@@ -16,21 +16,10 @@ header {
 
 #logo {
     display: flex;
-    justify-content: flex-start;
+
 }
 
-#burgermenu {
-    display: flex;
-    justify-content: flex-end;
-}
 
-/*
-#burgermenu .bar1,
-.bar2,
-.bar3 {
-    align-content: flex-end;
-}
-*/
 
 
 
@@ -122,6 +111,7 @@ header {
 #burgermenu {
     display: inline-block;
     cursor: pointer;
+
 
 }
 
@@ -595,24 +585,6 @@ nav a {
 /*-----ABOUT-----*/
 
 
-#about_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.about_image {
-    height: 100vh;
-
-
-    background-image: url(billeder/tilomside.jpg);
-
-}
-
-.about_text {
-    height: 100vh;
-
-    border: solid 2px black;
-}
 
 
 
@@ -862,6 +834,25 @@ nav a {
 
 
 
+    /* mediaquery ABOUT */
+    #about_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about_image {
+        height: 100vh;
+
+
+        background-image: url(billeder/tilomside.jpg);
+
+    }
+
+    .about_text {
+        height: 100vh;
+
+        border: solid 2px black;
+    }
 
 
 
