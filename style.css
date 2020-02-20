@@ -515,10 +515,45 @@ nav a {
 
 
 
+/*----- FOOTER -----*/
+
+#kontakt {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 5vw;
+    padding-left: 5vw;
+
+}
+
+.adresse,
+aside {
+    margin: 5px 10px;
+    padding: 20px;
+
+}
 
 
+.kontakt_titel {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#kontakt p {
+    margin: 0 0 10px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.kontakt_img {
+    width: 5vw;
+}
 
 
+/*----- FOOTER SLUT -----*/
 
 
 
@@ -695,21 +730,23 @@ nav a {
 
 
 #contact_container {
+    margin: 0 auto;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 
 }
 
 .contact_image {
 
-    background-image: url(billeder/tilkontaktside.jpg);
+    background-image: url(billeder/tilkontaktside1.jpg);
 
 }
 
 .contact_text {
-    height: 100vh;
-    ;
-    border: solid 2px black;
+
+    border: solid 1px black;
 }
 
 
@@ -831,6 +868,65 @@ nav a {
         padding: 20px 60px 20px 60px;
         margin-top: 20px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /****** footer ******/
+
+    #kontakt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        background-color: whitesmoke;
+        margin-top: 5vw;
+        padding-left: 16vw;
+
+
+
+
+    }
+
+    .adresse,
+    aside {
+        width: 100%;
+        margin: 5px 10px;
+        padding: 20px;
+
+    }
+
+
+    .kontakt_titel {
+        font-size: 22px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #kontakt p {
+        margin: 0 0 10px 0;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .kontakt_img {
+        width: 2vw;
+    }
+
+
 
 
 }
