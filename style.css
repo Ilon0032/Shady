@@ -24,8 +24,9 @@ header {
 }
 
 body {
-    max-width: 380px;
+    background-color: #f2f2f2;
 }
+
 
 
 
@@ -392,8 +393,11 @@ nav a {
 /*-----PRODUCT LIST-----*/
 
 
-
-
+/*
+Brug til dynamisk indhold af produktlisterne, mediqaueries behøves så ikke
+\display: Grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+*/
 
 
 
@@ -589,8 +593,8 @@ nav a {
 /*-----ABOUT-----*/
 
 .about_image {
-    background-image: url(billeder/tilomside.jpg);
-    height: 400px;
+    background-image: url(billeder/tilomside_mobil.jpg);
+    height: 500px;
     width: 100vw;
     object-fit: contain;
 
@@ -838,9 +842,8 @@ nav a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
-    background-color: whitesmoke;
-    margin-top: 5vw;
-    padding-left: 5vw;
+    background-color: #f2f2f2;
+
 
 }
 
@@ -877,7 +880,7 @@ aside {
 
 @media only screen and (min-width: 600px) {
     body {
-        max-width: 1400px;
+        background-color: #f2f2f2;
     }
 
     header {
@@ -903,8 +906,7 @@ aside {
     }
 
     #logo {
-        background-image: ;
-        margin: auto 0;
+
         padding: 30px;
     }
 
@@ -928,12 +930,13 @@ aside {
         background-image: url(billeder/tilomside.jpg);
         height: 100vh;
         width: 100%;
-        object-fit: contain;
+
+        background-repeat: no-repeat;
 
     }
 
     .about_text h2,
-    #about_container h1 {
+    .about_text h1 {
         text-align: center;
         padding: 10px;
     }
@@ -958,9 +961,9 @@ aside {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
-        background-color: whitesmoke;
-        margin-top: 5vw;
-        padding-left: 16vw;
+        background-color: #f2f2f2;
+
+
 
 
 
