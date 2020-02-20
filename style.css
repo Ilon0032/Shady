@@ -964,10 +964,35 @@ aside {
     }
 
 
+    button {
+        display: flex;
+        padding: 5px;
+        font-size: 1.8rem;
+        color: whitesmoke;
+        border: none;
+        background-color: burlywood;
+        cursor: pointer;
+    }
 
 
+    button:hover {
+        transition: .2s;
+        border-top: solid 3px whitesmoke;
+    }
+
+    .valgt {
+        border-top: solid 3px rgba(255, 255, 255, .5);
+    }
 
 
+    .datacontainer {
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 10px;
+        max-width: 1200px;
+    }
 
 
 
