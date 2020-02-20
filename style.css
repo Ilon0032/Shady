@@ -931,7 +931,7 @@ aside {
 
     header {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1.5fr 1fr;
 
 
     }
@@ -952,7 +952,7 @@ aside {
     nav a {
 
         display: inline-block;
-        padding: 20px 60px 20px 60px;
+        padding: 20px 55px 20px 55px;
 
     }
 
@@ -1005,6 +1005,7 @@ aside {
 
     #splash_container {
         display: grid;
+        margin-top: 0.9vw;
         height: 75vh;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -1039,6 +1040,22 @@ aside {
         grid-column: 3/5;
 
         background-color: #9FAC9A;
+    }
+
+
+    #splash_text {
+        height: 25vh;
+
+    }
+
+    #splash_text h1 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #splash_text h2 {
+        text-align: center;
+        padding: 10px;
     }
 
     #logo {
@@ -1186,20 +1203,6 @@ aside {
 
 
 
-    #splash_text {
-        height: 40vh;
-
-    }
-
-    #splash_text h1 {
-        text-align: center;
-        padding: 10px;
-    }
-
-    #splash_text h2 {
-        text-align: center;
-        padding: 10px;
-    }
 }
 
 
