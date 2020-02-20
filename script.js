@@ -13,4 +13,6 @@ function burger() {
 
 }
 
+
+
 /*js i script-tags i singleview.html og product_list.html*/
