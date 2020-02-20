@@ -20,6 +20,9 @@ header {
     display: flex;
     float: right;
     padding: 10px;
+    background-image: url(billeder/Logo.png);
+    height: 15px;
+    width: 15px;
 
 }
 
