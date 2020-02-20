@@ -895,6 +895,7 @@ aside {
         margin: auto 0;
         padding: 30px;
 
+    }
 
 
 
@@ -913,49 +914,50 @@ aside {
 
 
 
-        /****** footer ******/
 
-        #kontakt {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            width: 100%;
-            background-color: whitesmoke;
-            margin-top: 5vw;
-            padding-left: 16vw;
+    /****** footer ******/
 
-
-
-
-        }
-
-        .adresse,
-        aside {
-            width: 100%;
-            margin: 5px 10px;
-            padding: 20px;
-
-        }
-
-
-        .kontakt_titel {
-            font-size: 22px;
-            text-transform: uppercase;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        #kontakt p {
-            margin: 0 0 10px 0;
-            font-family: 'Raleway', sans-serif;
-        }
-
-        .kontakt_img {
-            width: 2vw;
-        }
+    #kontakt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        background-color: whitesmoke;
+        margin-top: 5vw;
+        padding-left: 16vw;
 
 
 
 
     }
+
+    .adresse,
+    aside {
+        width: 100%;
+        margin: 5px 10px;
+        padding: 20px;
+
+    }
+
+
+    .kontakt_titel {
+        font-size: 22px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #kontakt p {
+        margin: 0 0 10px 0;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .kontakt_img {
+        width: 2vw;
+    }
+
+
+
+
+}
 
 
 }
