@@ -769,7 +769,7 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 .contact_text h1,
 #contact_container {
     text-align: center;
-    padding: 10px;
+
 }
 
 .about_text p {
@@ -927,11 +927,16 @@ aside {
     header {
         display: grid;
         grid-template-columns: 1fr 2fr;
+
+
     }
 
     #menu {
+        align-self: center;
+        justify-self: start;
         display: flex;
         justify-content: center;
+
     }
 
     #burgermenu {
@@ -940,10 +945,22 @@ aside {
 
 
     nav a {
+
         display: inline-block;
         padding: 20px 60px 20px 60px;
-        margin-top: 20px;
+
     }
+
+
+
+
+
+
+
+
+
+
+    /********* HOME ********/
 
     #landing_page {
         position: relative;
