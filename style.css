@@ -23,6 +23,9 @@ header {
 
 }
 
+body {
+    max-width: 380px;
+}
 
 
 
@@ -858,6 +861,10 @@ aside {
 
 
 @media only screen and (min-width: 600px) {
+    body {
+        max-width: 1400px;
+    }
+
     header {
         display: grid;
         grid-template-columns: 1fr 2fr;
