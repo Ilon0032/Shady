@@ -743,7 +743,7 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     background-image: url(billeder/contactimage1.jpg);
     background-repeat: no-repeat;
     object-fit: contain;
-    height: 400px;
+    width: 100%;
     height: 100vw;
 
 
@@ -752,12 +752,20 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .contact_text {
-    border: solid 1px black;
+    border: none;
 }
 
-.contact_text h2 #contact_container {
+.contact_text h1,
+#contact_container {
     text-align: center;
+    padding: 30px;
 }
+
+.about_text p {
+    text-align: center;
+    margin: 10px;
+}
+
 
 
 
@@ -985,17 +993,33 @@ aside {
 
 
 
-    /*---Mediaquery contact*---*/
+    /*---Mediaquery contact---*/
 
     #contact_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
 
     }
 
 
+    .contact_text {
+        width: 100%;
 
 
+    }
+
+    .contact_image {
+        background-image: url(billeder/contactimage1.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+
+
+    }
+
+
+    /*---Mediaquery contact slut---*/
 
 
 
