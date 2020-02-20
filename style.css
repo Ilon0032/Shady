@@ -9,28 +9,20 @@ img {
     100%;
 }
 
+/*
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+*/
 
 #logo {
     display: flex;
-    justify-content: flex-start;
+    float: right;
+
 }
 
-#burgermenu {
-    display: flex;
-    justify-content: flex-end;
-}
 
-/*
-#burgermenu .bar1,
-.bar2,
-.bar3 {
-    align-content: flex-end;
-}
-*/
 
 
 
@@ -122,6 +114,7 @@ header {
 #burgermenu {
     display: inline-block;
     cursor: pointer;
+
 
 }
 
@@ -629,26 +622,24 @@ aside {
 
 /*-----ABOUT-----*/
 
-
-#about_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .about_image {
-    height: 100vh;
-
-
     background-image: url(billeder/tilomside.jpg);
+    height: 400px;
+    width: 100vw;
+    object-fit: contain;
 
 }
 
-.about_text {
-    height: 100vh;
-
-    border: solid 2px black;
+.about_text h2,
+#about_container h1 {
+    text-align: center;
+    padding: 10px;
 }
 
+.about_text p {
+    text-align: left;
+    margin: 10px;
+}
 
 
 
@@ -897,6 +888,25 @@ aside {
 
 
 
+    /* mediaquery ABOUT */
+    #about_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about_image {
+        height: 100vh;
+
+
+        background-image: url(billeder/tilomside.jpg);
+
+    }
+
+    .about_text {
+        height: 100vh;
+
+        border: solid 2px black;
+    }
 
 
 
