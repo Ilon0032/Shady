@@ -17,12 +17,14 @@ header {
 */
 
 #logo {
-    display: flex;
-    float: right;
-    padding: 10px;
-    background-image: url(billeder/Logo.png);
-    height: 15px;
-    width: 15px;
+
+    display: inline-block;
+
+    margin: 2px;
+    background-image: url(billeder/Logo.svg);
+    height: 44px;
+    width: 80px;
+    background-repeat: no-repeat;
 
 }
 
@@ -30,13 +32,32 @@ body {
     background-color: #f2f2f2;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #f2f2f2;
+}
 
+/* font til overskrift, helvetica neue thin*/
 
+/* font til brødtekst, helvetica neue regular*/
+@font-face {
+    font-family: 'helveticaneueregular';
+    src: url('helveticaneue-webfont.woff2') format('woff2'),
+        url('helveticaneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
+h1,
+h2,
+h3,
+p,
+a {
+    font-family: 'helveticaneueregular';
 
-
-
+}
 
 
 
@@ -909,14 +930,17 @@ aside {
 
 
     nav a {
-        float: left;
+        display: inline-block;
         padding: 20px 60px 20px 60px;
         margin-top: 20px;
     }
 
     #logo {
+        margin: 10px;
+        padding: 0px;
+        height: 68px;
+        width: 120px;
 
-        padding: 30px;
     }
 
 
