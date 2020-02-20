@@ -712,7 +712,8 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
 #contact_container {
     object-fit: contain;
-    height: 100vh;
+    height: 400px;
+    height: 100vw;
     display: grid;
     grid-template-columns: repeat (autofill, min-max(300px, 1fr));
 
