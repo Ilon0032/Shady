@@ -813,12 +813,12 @@ nav a {
 /*-----MEDIA QUERIES-----*/
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 
     #menu {
         display: flex;
         justify-content: center;
-        width: 100vw;
+
     }
 
     #burgermenu {
@@ -827,12 +827,67 @@ nav a {
 
 
     nav a {
-        float: left;
+        display: inline-block;
         padding: 20px 60px 20px 60px;
         margin-top: 20px;
     }
 
+    #landing_page {
+        position: relative;
+    }
 
+
+    #splash_container {
+        display: grid;
+        height: 70vh;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+
+
+    }
+
+    .splash_img {
+        position: absolute;
+        background-image: url(billeder/Carly.jpg);
+        width: 60vw;
+        height: 50vh;
+        top: 10%;
+        left: 20vw;
+
+
+    }
+
+    .colorbox {
+        height: 70vh;
+
+    }
+
+    .left {
+        grid-column: 1/3;
+        background-color: bisque;
+
+    }
+
+    .right {
+        grid-column: 3/5;
+
+        background-color: aquamarine;
+    }
+
+    #splash_text {
+        height: 40vh;
+
+    }
+
+    #splash_text h1 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #splash_text h2 {
+        text-align: center;
+        padding: 10px;
+    }
 }
 
 
