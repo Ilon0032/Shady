@@ -950,30 +950,31 @@ aside {
 
     .splash_img {
         position: absolute;
-        background-image: url(billeder/Carly.jpg);
+        background-image: url(billeder/Charlize.jpg);
         width: 60vw;
         height: 50vh;
         top: 10%;
         left: 20vw;
+        object-fit: contain;
+
 
 
     }
 
     .colorbox {
-        height: 70vh;
+        height: 75vh;
 
     }
 
     .left {
         grid-column: 1/3;
-        background-color: bisque;
-
+        background-color: #27331B;
     }
 
     .right {
         grid-column: 3/5;
 
-        background-color: aquamarine;
+        background-color: #9FAC9A;
     }
 
     #logo {
