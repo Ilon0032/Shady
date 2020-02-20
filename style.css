@@ -9,13 +9,16 @@ img {
     100%;
 }
 
+/*
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+*/
 
 #logo {
     display: flex;
+    float: right;
 
 }
 
