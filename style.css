@@ -9,11 +9,28 @@ img {
     100%;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+#logo {
+    display: flex;
+    justify-content: flex-start;
+}
 
+#burgermenu {
+    display: flex;
+    justify-content: flex-end;
+}
 
-
-
+/*
+#burgermenu .bar1,
+.bar2,
+.bar3 {
+    align-content: flex-end;
+}
+*/
 
 
 
@@ -628,7 +645,7 @@ aside {
 
 .about_text {
     height: 100vh;
-    ;
+
     border: solid 2px black;
 }
 
@@ -851,6 +868,10 @@ aside {
 
 
 @media only screen and (min-width: 600px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
 
     #menu {
         display: flex;
@@ -869,6 +890,10 @@ aside {
         margin-top: 20px;
     }
 
+    #logo {
+        background-image: ;
+        margin: auto 0;
+        padding: 30px;
 
 
 
@@ -887,50 +912,53 @@ aside {
 
 
 
-    /****** footer ******/
 
-    #kontakt {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        background-color: whitesmoke;
-        margin-top: 5vw;
-        padding-left: 16vw;
+        /****** footer ******/
+
+        #kontakt {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+            background-color: whitesmoke;
+            margin-top: 5vw;
+            padding-left: 16vw;
+
+
+
+
+        }
+
+        .adresse,
+        aside {
+            width: 100%;
+            margin: 5px 10px;
+            padding: 20px;
+
+        }
+
+
+        .kontakt_titel {
+            font-size: 22px;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #kontakt p {
+            margin: 0 0 10px 0;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .kontakt_img {
+            width: 2vw;
+        }
 
 
 
 
     }
-
-    .adresse,
-    aside {
-        width: 100%;
-        margin: 5px 10px;
-        padding: 20px;
-
-    }
-
-
-    .kontakt_titel {
-        font-size: 22px;
-        text-transform: uppercase;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    #kontakt p {
-        margin: 0 0 10px 0;
-        font-family: 'Raleway', sans-serif;
-    }
-
-    .kontakt_img {
-        width: 2vw;
-    }
-
-
 
 
 }
-
 
 
 
