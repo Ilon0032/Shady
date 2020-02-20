@@ -9,17 +9,55 @@ img {
     100%;
 }
 
+/*
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+*/
 
+#logo {
 
+    display: inline-block;
 
+    margin: 2px;
+    background-image: url(billeder/Logo.svg);
+    height: 44px;
+    width: 80px;
+    background-repeat: no-repeat;
 
+}
 
+body {
+    background-color: #f2f2f2;
+}
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #f2f2f2;
+}
 
+/* font til overskrift, helvetica neue thin*/
 
+/* font til brødtekst, helvetica neue regular*/
+@font-face {
+    font-family: 'helveticaneueregular';
+    src: url('helveticaneue-webfont.woff2') format('woff2'),
+        url('helveticaneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
+h1,
+h2,
+h3,
+p,
+a {
+    font-family: 'helveticaneueregular';
 
+}
 
 
 
@@ -105,6 +143,7 @@ img {
 #burgermenu {
     display: inline-block;
     cursor: pointer;
+
 
 }
 
@@ -378,8 +417,11 @@ nav a {
 /*-----PRODUCT LIST-----*/
 
 
-
-
+/*
+Brug til dynamisk indhold af produktlisterne, mediqaueries behøves så ikke
+\display: Grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+*/
 
 
 
@@ -570,33 +612,28 @@ nav a {
 
 
 
-
-
-
 /*-----SINGLE VIEW SLUT-----*/
 
 /*-----ABOUT-----*/
 
-
-#about_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .about_image {
-    height: 100vh;
-
-
-    background-image: url(billeder/tilomside.jpg);
+    background-image: url(billeder/tilomside_mobil.jpg);
+    height: 500px;
+    width: 100vw;
+    object-fit: contain;
 
 }
 
-.about_text {
-    height: 100vh;
-    ;
-    border: solid 2px black;
+.about_text h2,
+#about_container h1 {
+    text-align: center;
+    padding: 10px;
 }
 
+.about_text p {
+    text-align: left;
+    margin: 10px;
+}
 
 
 
@@ -695,22 +732,41 @@ nav a {
 
 
 #contact_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+    /*display: grid;
+    grid-template-columns: repeat (autofill, min-max(300px, 1fr));*/
+
 
 }
 
-.contact_image {
 
-    background-image: url(billeder/tilkontaktside.jpg);
+.contact_image {
+    background-image: url(billeder/contactimage1.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100%;
+    height: 100vw;
+
+
+
 
 }
 
 .contact_text {
-    height: 100vh;
-    ;
-    border: solid 2px black;
+    border: none;
 }
+
+.contact_text h1,
+#contact_container {
+    text-align: center;
+    padding: 30px;
+}
+
+.about_text p {
+    text-align: center;
+    margin: 10px;
+}
+
 
 
 
@@ -809,11 +865,62 @@ nav a {
 
 
 /*-----CONTACT SLUT-----*/
+/*------FOOTER---------*/
+
+
+#footerindhold {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    background-color: #f2f2f2;
+
+
+}
+
+.adresse,
+aside {
+    margin: 5px 10px;
+    padding: 20px;
+
+}
+
+
+.kontakt_titel {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#kontakt p {
+    margin: 0 0 10px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.kontakt_img {
+    width: 5vw;
+}
+
+
+/*----- FOOTER SLUT -----*/
 
 /*-----MEDIA QUERIES-----*/
 
 
+<<<<<<< HEAD
 @media only screen and (min-width: 768px) {
+=======
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: #f2f2f2;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+>>>>>>> origin/master
 
     #menu {
         display: flex;
@@ -832,6 +939,7 @@ nav a {
         margin-top: 20px;
     }
 
+<<<<<<< HEAD
     #landing_page {
         position: relative;
     }
@@ -873,6 +981,140 @@ nav a {
 
         background-color: aquamarine;
     }
+=======
+    #logo {
+        margin: 10px;
+        padding: 0px;
+        height: 68px;
+        width: 120px;
+
+    }
+
+
+
+
+
+    /* mediaquery ABOUT */
+    #about_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .about_text {
+        width: 100%;
+
+    }
+
+    .about_image {
+        background-image: url(billeder/tilomside.jpg);
+        height: 100vh;
+        width: 100%;
+
+        background-repeat: no-repeat;
+
+    }
+
+    .about_text h2,
+    .about_text h1 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .about_text p {
+        text-align: left;
+        margin: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*---Mediaquery contact---*/
+
+    #contact_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
+
+    }
+
+
+    .contact_text {
+        width: 100%;
+
+
+    }
+
+    .contact_image {
+        background-image: url(billeder/contactimage1.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+
+
+    }
+
+
+    /*---Mediaquery contact slut---*/
+
+
+
+
+    /****** footer ******/
+
+    #footerindhold {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        background-color: #f2f2f2;
+
+
+
+
+
+
+    }
+
+    .adresse,
+    aside {
+        width: 100%;
+        margin: 5px 10px;
+        padding: 20px;
+
+    }
+
+
+    .kontakt_titel {
+        font-size: 22px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #kontakt p {
+        margin: 0 0 10px 0;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .kontakt_img {
+        width: 2vw;
+    }
+
+
+
+>>>>>>> origin/master
 
     #splash_text {
         height: 40vh;
@@ -889,6 +1131,7 @@ nav a {
         padding: 10px;
     }
 }
+
 
 
 
