@@ -529,45 +529,7 @@ nav a {
 
 
 
-/*----- FOOTER -----*/
 
-#footerindhold {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 100%;
-    background-color: whitesmoke;
-    margin-top: 5vw;
-    padding-left: 5vw;
-
-}
-
-.adresse,
-aside {
-    margin: 5px 10px;
-    padding: 20px;
-
-}
-
-
-.kontakt_titel {
-    font-size: 22px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-
-#kontakt p {
-    margin: 0 0 10px 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-}
-
-.kontakt_img {
-    width: 5vw;
-}
-
-
-/*----- FOOTER SLUT -----*/
 
 
 
@@ -856,6 +818,46 @@ aside {
 
 
 /*-----CONTACT SLUT-----*/
+/*------FOOTER---------*/
+
+
+#footerindhold {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 5vw;
+    padding-left: 5vw;
+
+}
+
+.adresse,
+aside {
+    margin: 5px 10px;
+    padding: 20px;
+
+}
+
+
+.kontakt_titel {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#kontakt p {
+    margin: 0 0 10px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.kontakt_img {
+    width: 5vw;
+}
+
+
+/*----- FOOTER SLUT -----*/
 
 /*-----MEDIA QUERIES-----*/
 
