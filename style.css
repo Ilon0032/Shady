@@ -753,9 +753,9 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 .contact_image {
     background-image: url(billeder/contactimage1.jpg);
     background-repeat: no-repeat;
+    height: 500px;
+    width: 100vw;
     object-fit: contain;
-    width: 100%;
-    height: 100vw;
 
 
 
