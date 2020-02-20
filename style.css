@@ -208,7 +208,6 @@ nav a {
 
 
 
-
 /*-----BURGERMENU SLUT-----*/
 
 /*-----LANDING PAGE-----*/
@@ -871,7 +870,7 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 #footerindhold {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 100%;
+
     background-color: #f2f2f2;
 
 
@@ -925,7 +924,10 @@ aside {
     #menu {
         display: flex;
         justify-content: center;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
     }
 
     #burgermenu {
@@ -1078,7 +1080,7 @@ aside {
     #footerindhold {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 100%;
+
         background-color: #f2f2f2;
 
 
