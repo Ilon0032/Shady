@@ -390,8 +390,11 @@ nav a {
 /*-----PRODUCT LIST-----*/
 
 
-
-
+/*
+Brug til dynamisk indhold af produktlisterne, mediqaueries behøves så ikke
+\display: Grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+*/
 
 
 
