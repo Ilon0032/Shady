@@ -528,7 +528,7 @@ nav a {
 
 /*----- FOOTER -----*/
 
-#kontakt {
+#footerindhold {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
@@ -748,13 +748,11 @@ aside {
 }
 
 .contact_image {
-
     background-image: url(billeder/tilkontaktside1.jpg);
 
 }
 
 .contact_text {
-
     border: solid 1px black;
 }
 
@@ -934,7 +932,7 @@ aside {
 
     /****** footer ******/
 
-    #kontakt {
+    #footerindhold {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
