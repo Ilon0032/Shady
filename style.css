@@ -907,10 +907,8 @@ aside {
 /*-----MEDIA QUERIES-----*/
 
 
-<<<<<<< HEAD
 @media only screen and (min-width: 768px) {
-=======
-@media only screen and (min-width: 600px) {
+
     body {
         background-color: #f2f2f2;
     }
@@ -919,15 +917,10 @@ aside {
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
->>>>>>> origin/master
 
     #menu {
         display: flex;
         justify-content: center;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
     }
 
     #burgermenu {
@@ -941,7 +934,6 @@ aside {
         margin-top: 20px;
     }
 
-<<<<<<< HEAD
     #landing_page {
         position: relative;
     }
@@ -983,8 +975,8 @@ aside {
 
         background-color: aquamarine;
     }
-=======
-    #logo {
+
+    =======#logo {
         margin: 10px;
         padding: 0px;
         height: 68px;
@@ -1116,9 +1108,7 @@ aside {
 
 
 
->>>>>>> origin/master
-
-    #splash_text {
+    > > > > > > > origin/master #splash_text {
         height: 40vh;
 
     }
