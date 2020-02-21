@@ -1002,11 +1002,13 @@ aside {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
+
     }
 
 
     .contact_text {
         width: 100%;
+
 
 
 
@@ -1018,6 +1020,7 @@ aside {
         width: 100%;
         background-repeat: no-repeat;
         margin-right: 50px;
+
 
 
     }
