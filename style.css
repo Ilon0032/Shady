@@ -421,8 +421,21 @@ button {
 
 }
 
-.solbriller {}
+.solbriller img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.solbriller h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.solbriller {
+    padding-bottom: 30px;
+}
 
 
 /*
@@ -526,7 +539,25 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 /*-----PRODUCT LIST SLUT-----*/
 
 /*-----SINGLE VIEW-----*/
+#detalje img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
 
+#detalje h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+#detalje h2,
+h3,
+h4 {
+    text-align: center;
+
+}
 
 
 
@@ -854,11 +885,17 @@ aside {
         background-image: url(billeder/backbuttongreen.svg);
         height: 44px;
         width: 80px;
+        display: flex;
 
     }
 
 
+<<<<<<< HEAD
     /*button {
+=======
+    /*
+    button {
+>>>>>>> origin/master
         display: flex;
         padding: 5px;
         font-size: 1.8rem;
@@ -866,7 +903,12 @@ aside {
         border: none;
         background-color: burlywood;
         cursor: pointer;
+<<<<<<< HEAD
     }*/
+=======
+    }
+*/
+>>>>>>> origin/master
 
 
     button:hover {
@@ -998,7 +1040,28 @@ aside {
 
     /*--- mediaquery productlist SLUT ---*/
 
+    /*------------mediaquery single view START----------*/
+    #detalje img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    #detalje h1 {
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 10px;
+    }
+
+    #detalje h2,
+    h3,
+    h4 {
+        text-align: center;
+
+    }
+
+
+    /*------------mediaquery single view SLUT----------*/
 
 
 
