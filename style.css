@@ -903,7 +903,7 @@ aside {
 
     }
 
-    master button:hover {
+    button:hover {
         transition: .2s;
         border-top: solid 3px whitesmoke;
     }
