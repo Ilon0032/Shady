@@ -404,19 +404,21 @@ nav a {
 
 /*-----PRODUCT LIST-----*/
 
+#ekstramenu h1 {
+    display: flex;
+    justify-content: center;
+}
+
 #ekstramenu,
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-#ekstramenu nav {
+nav {
     display: flex;
     justify-content: center;
 }
 
 
-#ekstramenu button {
+
+#ekstramenu,
+button {
     cursor: pointer;
     border: none;
     text-decoration: none;
@@ -1011,20 +1013,18 @@ aside {
 
 /*--- mediaquery productlist ---*/
 
-#ekstramenu,
-h1 {
+/*#ekstramenu h1 {
     display: flex;
     justify-content: center;
 }
 
-#ekstramenu,
-nav {
+#ekstramenu nav {
     display: flex;
     justify-content: center;
 }
 
-#ekstramenu,
-button {
+
+#ekstramenu button {
     cursor: pointer;
     border: none;
     text-decoration: none;
@@ -1036,7 +1036,7 @@ button {
     text-align: center;
 
 
-}
+}*/
 
 
 
