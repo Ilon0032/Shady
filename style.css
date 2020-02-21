@@ -410,16 +410,14 @@ nav a {
     justify-content: center;
 }
 
-#ekstramenu,
-nav {
+#ekstramenu nav {
     display: flex;
     justify-content: center;
 }
 
 
 
-#ekstramenu,
-button {
+#ekstramenu button {
     cursor: pointer;
     border: none;
     text-decoration: none;
@@ -997,17 +995,19 @@ aside {
     /*--- mediaquery productlist ---*/
 
 
-    /*#ekstramenu h1 {
-    display: flex;
-    justify-content: center;
-}
-
-#ekstramenu nav {
-    display: flex;
-    justify-content: center;
-}
+    /*
+    #ekstramenu h1 {
+        display: flex;
+        text-align: center;
+    }
 
 
+    #ekstramenu nav {
+        display: flex;
+        justify-content: center;
+    }*/
+
+    /*
 #ekstramenu button {
     cursor: pointer;
     border: none;
@@ -1021,7 +1021,6 @@ aside {
 
 
 }*/
-
 
 
 
