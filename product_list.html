@@ -106,7 +106,7 @@
             solbriller.feed.entry.forEach(sol => {
                 if (filter == "alle" || filter == sol.gsx$kategori.$t) {
                     let klon = solbrillerTemplate.cloneNode(true).content;
-                    klon.querySelector("img").src = `imgs/small/${sol.gsx$billede.$t}-sm.jpg`;
+                    klon.querySelector("img").src = `billeder/small/${sol.gsx$billede.$t}-small.jpg`;
                     klon.querySelector("h1").textContent = sol.gsx$navn.$t;
                     klon.querySelector("h2").textContent = sol.gsx$pris.$t + " Kr.";
                     klon.querySelector("h3").textContent = sol.gsx$kategori.$t;
