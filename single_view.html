@@ -78,7 +78,7 @@
         document.addEventListener("DOMContentLoaded", start);
         const detalje = document.querySelector("#detalje");
         const endpoint = "https://spreadsheets.google.com/feeds/list/1CglHYvfxRZN0KsBYSe5yrSjMMuuSNQcFcxBKNURsVa8/od6/public/values?alt=json";
-        let solbriller = []
+        let solbriller = [];
 
         function start() {
             loadData();
@@ -86,7 +86,7 @@
         }
         async function loadData() {
             const response = await fetch(endpoint);
-            console.log(response);
+            //console.log(response);
             solbriller = await response.json();
             console.log(solbriller);
             visSol();
@@ -101,20 +101,17 @@
 
 
                 if (sol.gsx$id.$t == id) {
-                    detalje.querySelector("img").src = `billeder/large/${sol.gsx$billede.$t}-large.jpg`;
                     detalje.querySelector("h1").textContent = sol.gsx$navn.$t;
+                    detalje.querySelector("img").src = `billeder/large/${sol.gsx$billede.$t}_large.jpg`;
                     detalje.querySelector("h2").textContent = sol.gsx$pris.$t + " Kr.";
                     detalje.querySelector("h3").textContent = sol.gsx$kategori.$t;
                     detalje.querySelector("h4").textContent = sol.gsx$lang.$t;
 
                     detalje.querySelector("h4").textContent = sol.gsx$kort.$t;
-                    detalje.querySelector(".oprindelse").textContent = "Oprindelse: " + sol.gsx$oprindelse.$t
+
 
                 }
             });
         }
-
     </script>
-</body>
-
-</html>
+</body></html>
