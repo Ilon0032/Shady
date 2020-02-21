@@ -43,8 +43,9 @@
     <section id="detalje">
         <article>
             <button class="tilbage">Tilbage</button>
-            <h1></h1>
+
             <img src="" alt="">
+            <h1></h1>
             <h2></h2>
             <h3></h3>
             <h4></h4>
@@ -103,7 +104,7 @@
                 if (sol.gsx$id.$t == id) {
                     detalje.querySelector("h1").textContent = sol.gsx$navn.$t;
                     detalje.querySelector("img").src = `billeder/large/${sol.gsx$billede.$t}_large.jpg`;
-                    detalje.querySelector("h2").textContent = sol.gsx$pris.$t + " Kr.";
+                    detalje.querySelector("h2").textContent = sol.gsx$pris.$t + " $";
                     detalje.querySelector("h3").textContent = sol.gsx$kategori.$t;
                     detalje.querySelector("h4").textContent = sol.gsx$lang.$t;
 
