@@ -16,8 +16,9 @@ body {
 header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr;
     background-color: #f2f2f2;
+    margin-bottom: 2vw;
 }
 
 /* font til overskrift, helvetica neue thin*/
