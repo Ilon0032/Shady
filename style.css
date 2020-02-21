@@ -39,6 +39,7 @@ h1 {
 }
 
 a {
+    font-size: 1.2rem;
     color: #27331B;
 }
 
@@ -63,10 +64,10 @@ a:active {
     grid-column: 2/3;
     display: inline-block;
     justify-self: center;
-    margin: 2px;
+    margin-top: 10px;
     background-image: url(billeder/Logo.svg);
-    height: 44px;
-    width: 80px;
+    height: 55px;
+    width: 100px;
     background-repeat: no-repeat;
 
 }
@@ -102,6 +103,8 @@ a:active {
     grid-column: 3/4;
     grid-row: 1/2;
     justify-self: end;
+    align-self: center;
+    margin-right: 10px;
 }
 
 #menu {
@@ -825,6 +828,7 @@ aside {
         display: inline-block;
         padding: 20px 15px;
         margin-top: 10px;
+        font-size: 1.2rem;
     }
 
     .tilbage {
@@ -930,8 +934,8 @@ aside {
     #logo {
         margin: 10px;
         padding: 0px;
-        height: 68px;
-        width: 120px;
+        height: 77px;
+        width: 150px;
         grid-column: 1/2;
 
     }
