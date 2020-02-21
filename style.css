@@ -854,10 +854,12 @@ aside {
         background-image: url(billeder/backbuttongreen.svg);
         height: 44px;
         width: 80px;
+        display: flex;
 
     }
 
 
+    /*
     button {
         display: flex;
         padding: 5px;
@@ -867,6 +869,7 @@ aside {
         background-color: burlywood;
         cursor: pointer;
     }
+*/
 
 
     button:hover {
@@ -979,7 +982,28 @@ aside {
 
     /*--- mediaquery productlist SLUT ---*/
 
+    /*------------mediaquery single view START----------*/
+    #detalje img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    #detalje h1 {
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 10px;
+    }
+
+    #detalje h2,
+    h3,
+    h4 {
+        text-align: center;
+
+    }
+
+
+    /*------------mediaquery single view SLUT----------*/
 
 
 
