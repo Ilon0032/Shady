@@ -110,6 +110,7 @@ a:active {
 #menu {
     grid-column: 2/3;
     grid-row: 2/3;
+
 }
 
 
@@ -674,7 +675,7 @@ h4 {
 }
 
 .about_text h2,
-#about_container h1 {
+.about_text h1 {
     text-align: center;
     padding: 10px;
 }
@@ -1204,8 +1205,6 @@ aside {
 .kontakt_img {
     width: 2vw;
 }
-
-
 
 }
 
