@@ -403,6 +403,25 @@ footer {}
 /*-----PRODUCT LIST-----*/
 
 
+button {
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    margin: 8px 5px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.solbriller {}
+
+
+
 /*
 Brug til dynamisk indhold af produktlisterne, mediqaueries behøves så ikke
 \display: Grid;
@@ -935,6 +954,26 @@ aside {
         grid-column: 1/2;
 
     }
+
+
+    /*--- mediaquery productlist ---*/
+    button {
+        cursor: pointer;
+        text-decoration: none;
+        margin: 8px 5px;
+        background-color: transparent;
+        color: black;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+
+
+    }
+
+
+    /*--- mediaquery productlist SLUT ---*/
 
 
 
