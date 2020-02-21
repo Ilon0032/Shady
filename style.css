@@ -16,6 +16,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
     background-color: #f2f2f2;
 }
 
@@ -62,7 +63,7 @@ a:active {
 }
 
 #logo {
-
+    grid-column: 2/3;
     display: inline-block;
     justify-self: center;
     margin: 2px;
@@ -101,9 +102,17 @@ a:active {
 #burgermenu {
     display: inline-block;
     cursor: pointer;
-
-
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: end;
 }
+
+#menu {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
 
 #bar1,
 #bar2,
