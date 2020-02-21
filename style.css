@@ -68,10 +68,10 @@ a:active {
     display: inline-block;
     justify-self: center;
     margin: 2px;
-      background-image: url(billeder/Logo.svg);
+    background-image: url(billeder/Logo.svg);
     height: 44px;
     width: 80px;
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
 
 }
 
@@ -829,11 +829,6 @@ aside {
         display: inline-block;
         padding: 20px 15px;
         margin-top: 10px;
-
-
-
-
-
     }
 
     .tilbage {
@@ -895,7 +890,7 @@ aside {
 
     .splash_img {
         position: absolute;
-        background-image: url(billeder/Charlize.jpg);
+        background-image: url(billeder/Charlize%2009.21.06.jpg);
         width: 60vw;
         height: 50vh;
         top: 10%;
