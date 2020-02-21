@@ -421,8 +421,21 @@ button {
 
 }
 
-.solbriller {}
+.solbriller img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.solbriller h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.solbriller {
+    padding-bottom: 30px;
+}
 
 
 /*
