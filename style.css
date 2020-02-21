@@ -68,10 +68,10 @@ a:active {
     display: inline-block;
     justify-self: center;
     margin: 2px;
-    background-image: url(billeder/Logo.svg);
+      background-image: url(billeder/Logo.svg);
     height: 44px;
     width: 80px;
-    background-repeat: no-repeat;
+      background-repeat: no-repeat;
 
 }
 
