@@ -858,7 +858,7 @@ aside {
     }
 
 
-    button {
+    /*button {
         display: flex;
         padding: 5px;
         font-size: 1.8rem;
@@ -866,7 +866,7 @@ aside {
         border: none;
         background-color: burlywood;
         cursor: pointer;
-    }
+    }*/
 
 
     button:hover {
@@ -961,20 +961,39 @@ aside {
 
 
     /*--- mediaquery productlist ---*/
+
+    #ekstramenu,
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
     button {
         cursor: pointer;
+        border: none;
         text-decoration: none;
         margin: 8px 5px;
         background-color: transparent;
-        color: black;
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Raleway', sans-serif;
         padding: 8px 16px;
         text-align: center;
-        text-decoration: none;
 
 
     }
+
+
+
+
+
+
+
+
 
 
     /*--- mediaquery productlist SLUT ---*/
