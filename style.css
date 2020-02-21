@@ -993,7 +993,10 @@ aside {
 
 
     /*--- mediaquery productlist ---*/
+    #ekstramenu button:hover {
+        border-top: #AAA69B solid 2px;
 
+    }
 
     /*
     #ekstramenu h1 {
