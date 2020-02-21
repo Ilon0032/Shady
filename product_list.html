@@ -7,6 +7,9 @@
     <title>Products</title>
     <link rel="stylesheet" href="style.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -39,15 +42,16 @@
     <h1>All</h1>
     <nav>
         <button class="filter" data-kategori="alle">All</button>
-        <button class="filter" data-kategori="forretter">Vintage</button>
-        <button class="filter" data-kategori="hovedretter">Men's</button>
-        <button class="filter" data-kategori="desserter">Colour</button>
+        <button class="filter" data-kategori="Vintage">Vintage</button>
+        <button class="filter" data-kategori="Men">Men's</button>
+        <button class="filter" data-kategori="Colour">Colour</button>
     </nav>
 
     <template>
         <div class="solbriller">
-            <h1></h1>
+
             <img src="" alt="">
+            <h1></h1>
             <h2></h2>
             <h3></h3>
             <h4></h4>
@@ -106,17 +110,17 @@
             solbriller.feed.entry.forEach(sol => {
                 if (filter == "alle" || filter == sol.gsx$kategori.$t) {
                     let klon = solbrillerTemplate.cloneNode(true).content;
-                    klon.querySelector("img").src = `billeder/small/${sol.gsx$billede.$t}-small.jpg`;
                     klon.querySelector("h1").textContent = sol.gsx$navn.$t;
+                    klon.querySelector("img").src = `billeder/small/${sol.gsx$billede.$t}_small.jpg`;
                     klon.querySelector("h2").textContent = sol.gsx$pris.$t + " Kr.";
                     klon.querySelector("h3").textContent = sol.gsx$kategori.$t;
 
                     klon.querySelector("h4").textContent = sol.gsx$kort.$t;
-                    klon.querySelector(".oprindelse").textContent = "Oprindelse: " + sol.gsx$oprindelse.$t
+
 
 
                     klon.querySelector("div.solbriller").addEventListener("click", () => {
-                        location.href = "detalje.html?id=" + sol.gsx$id.$t;
+                        location.href = "single_view.html?id=" + sol.gsx$id.$t;
                     });
 
                     container.appendChild(klon);
@@ -148,11 +152,8 @@
             visSolbriller();
 
         }
-
     </script>
 
 
 
-</body>
-
-</html>
+</body></html>
