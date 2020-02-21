@@ -405,19 +405,21 @@ nav a {
 
 /*-----PRODUCT LIST-----*/
 
+#ekstramenu h1 {
+    display: flex;
+    justify-content: center;
+}
+
 #ekstramenu,
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-#ekstramenu nav {
+nav {
     display: flex;
     justify-content: center;
 }
 
 
-#ekstramenu button {
+
+#ekstramenu,
+button {
     cursor: pointer;
     border: none;
     text-decoration: none;
@@ -994,32 +996,32 @@ aside {
 
     /*--- mediaquery productlist ---*/
 
-    #ekstramenu,
-    h1 {
-        display: flex;
-        justify-content: center;
-    }
 
-    #ekstramenu,
-    nav {
-        display: flex;
-        justify-content: center;
-    }
+    /*#ekstramenu h1 {
+    display: flex;
+    justify-content: center;
+}
 
-    #ekstramenu,
-    button {
-        cursor: pointer;
-        border: none;
-        text-decoration: none;
-        margin: 8px 5px;
-        background-color: transparent;
-        font-size: 20px;
-        font-family: 'Raleway', sans-serif;
-        padding: 8px 16px;
-        text-align: center;
+#ekstramenu nav {
+    display: flex;
+    justify-content: center;
+}
 
 
-    }
+#ekstramenu button {
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    margin: 8px 5px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 16px;
+    text-align: center;
+
+
+}*/
+
 
 
 
