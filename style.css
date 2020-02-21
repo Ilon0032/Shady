@@ -526,7 +526,25 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 /*-----PRODUCT LIST SLUT-----*/
 
 /*-----SINGLE VIEW-----*/
+#detalje img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
 
+#detalje h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+#detalje h2,
+h3,
+h4 {
+    text-align: center;
+
+}
 
 
 
