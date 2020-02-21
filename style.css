@@ -9,32 +9,13 @@ img {
     100%;
 }
 
-/*
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-*/
-
-#logo {
-
-    display: inline-block;
-
-    margin: 2px;
-    background-image: url(billeder/Logo.svg);
-    height: 44px;
-    width: 80px;
-    background-repeat: no-repeat;
-
-}
-
 body {
     background-color: #f2f2f2;
 }
 
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 1fr;
     background-color: #f2f2f2;
 }
 
@@ -80,56 +61,17 @@ a:active {
 
 }
 
+#logo {
 
+    display: inline-block;
+    justify-self: center;
+    margin: 2px;
+    background-image: url(billeder/Logo.svg);
+    height: 44px;
+    width: 80px;
+    background-repeat: no-repeat;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
