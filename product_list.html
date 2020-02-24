@@ -18,34 +18,37 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
-<header>
 
-    <div id="burgermenu" onclick="burger(this)">
-        <div id="bar1"></div>
-        <div id="bar2"></div>
-        <div id="bar3"></div>
-    </div>
-    <article id="logo"></article>
-    <div id="menu" class="hide_nav">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="product_list.html">Products</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </div>
-
-
-</header>
 
 <body>
-    <h1>All</h1>
-    <nav>
-        <button class="filter" data-kategori="alle">All</button>
-        <button class="filter" data-kategori="Vintage">Vintage</button>
-        <button class="filter" data-kategori="Men">Men's</button>
-        <button class="filter" data-kategori="Colour">Colour</button>
-    </nav>
+    <header>
+
+        <div id="burgermenu" onclick="burger(this)">
+            <div id="bar1"></div>
+            <div id="bar2"></div>
+            <div id="bar3"></div>
+        </div>
+        <article id="logo"></article>
+        <div id="menu" class="hide_nav">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="product_list.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+
+
+    </header>
+    <section id="ekstramenu">
+        <h1>All</h1>
+        <nav>
+            <button class="filter" data-kategori="alle">All</button>
+            <button class="filter" data-kategori="Vintage">Vintage</button>
+            <button class="filter" data-kategori="Men">Men's</button>
+            <button class="filter" data-kategori="Colour">Colour</button>
+        </nav>
+    </section>
 
     <template>
         <div class="solbriller">
@@ -64,6 +67,18 @@
     </template>
 
     <section class="datacontainer"></section>
+
+    <footer>
+        <div id="footerindhold">
+            <div class="adresse">
+                <span class="kontakt_titel"><img class="kontakt_img" src="billeder/mapicon.png" alt="map"> Contact:</span>
+                <p>Somewhere street<br>987654 nowhere<br>Tlf: +00 11 22 33 44</p>
+            </div>
+            <div class="adresse"><span class="kontakt_titel"><img class="kontakt_img" src="billeder/timeicon.png" alt="clock"> Opening hours:</span>
+                <p>Monday - Friday: 10.30 to 22.00<br>Saturday: 12.00 to 23.00<br>Sunday: Closed</p>
+            </div>
+        </div>
+    </footer>
 
     <script>
         window.addEventListener("load", sidenVises);
@@ -112,7 +127,7 @@
                     let klon = solbrillerTemplate.cloneNode(true).content;
                     klon.querySelector("h1").textContent = sol.gsx$navn.$t;
                     klon.querySelector("img").src = `billeder/small/${sol.gsx$billede.$t}_small.jpg`;
-                    klon.querySelector("h2").textContent = sol.gsx$pris.$t + " Kr.";
+                    klon.querySelector("h2").textContent = sol.gsx$pris.$t + " $";
                     klon.querySelector("h3").textContent = sol.gsx$kategori.$t;
 
                     klon.querySelector("h4").textContent = sol.gsx$kort.$t;
@@ -152,8 +167,11 @@
             visSolbriller();
 
         }
+
     </script>
 
 
 
-</body></html>
+</body>
+
+</html>

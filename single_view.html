@@ -18,37 +18,38 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
-<header>
 
-    <div id="burgermenu" onclick="burger(this)">
-        <div id="bar1"></div>
-        <div id="bar2"></div>
-        <div id="bar3"></div>
-    </div>
-    <article id="logo"></article>
-    <div id="menu" class="hide_nav">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="product_list.html">Products</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </div>
-
-
-</header>
 
 <body>
+    <header>
+
+        <div id="burgermenu" onclick="burger(this)">
+            <div id="bar1"></div>
+            <div id="bar2"></div>
+            <div id="bar3"></div>
+        </div>
+        <article id="logo"></article>
+        <div id="menu" class="hide_nav">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="product_list.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+
+
+    </header>
 
     <section id="detalje">
         <article>
-            <button class="tilbage">Tilbage</button>
+            <button class="tilbage"></button>
 
             <img src="" alt="">
             <h1></h1>
             <h2></h2>
-            <h3></h3>
             <h4></h4>
+            <h3></h3>
             <p class="oprindelse"></p>
 
         </article>
@@ -57,6 +58,18 @@
 
 
     <section class="datacontainer"></section>
+
+    <footer>
+        <div id="footerindhold">
+            <div class="adresse">
+                <span class="kontakt_titel"><img class="kontakt_img" src="billeder/mapicon.png" alt="map"> Contact:</span>
+                <p>Somewhere street<br>987654 nowhere<br>Tlf: +00 11 22 33 44</p>
+            </div>
+            <div class="adresse"><span class="kontakt_titel"><img class="kontakt_img" src="billeder/timeicon.png" alt="clock"> Opening hours:</span>
+                <p>Monday - Friday: 10.30 to 22.00<br>Saturday: 12.00 to 23.00<br>Sunday: Closed</p>
+            </div>
+        </div>
+    </footer>
     <script>
         window.addEventListener("load", sidenVises);
 
@@ -104,15 +117,18 @@
                 if (sol.gsx$id.$t == id) {
                     detalje.querySelector("h1").textContent = sol.gsx$navn.$t;
                     detalje.querySelector("img").src = `billeder/large/${sol.gsx$billede.$t}_large.jpg`;
-                    detalje.querySelector("h2").textContent = sol.gsx$pris.$t + " Kr.";
+                    detalje.querySelector("h2").textContent = sol.gsx$pris.$t + " $";
                     detalje.querySelector("h3").textContent = sol.gsx$kategori.$t;
                     detalje.querySelector("h4").textContent = sol.gsx$lang.$t;
 
-                    detalje.querySelector("h4").textContent = sol.gsx$kort.$t;
+                    detalje.querySelector("h4").textContent = sol.gsx$lang.$t;
 
 
                 }
             });
         }
+
     </script>
-</body></html>
+</body>
+
+</html>
