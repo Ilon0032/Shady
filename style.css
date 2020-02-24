@@ -569,6 +569,7 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 h3,
 h4 {
     text-align: center;
+    padding: 10px;
 
 }
 
