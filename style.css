@@ -1,5 +1,3 @@
-/*-----GENERELLE INDSTILLINGER-----*/
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -39,6 +37,7 @@ h1 {
 }
 
 a {
+    font-size: 1.2rem;
     color: #27331B;
 }
 
@@ -63,10 +62,10 @@ a:active {
     grid-column: 2/3;
     display: inline-block;
     justify-self: center;
-    margin: 2px;
+    margin-top: 10px;
     background-image: url(billeder/Logo.svg);
-    height: 44px;
-    width: 80px;
+    height: 55px;
+    width: 100px;
     background-repeat: no-repeat;
 
 }
@@ -102,11 +101,14 @@ a:active {
     grid-column: 3/4;
     grid-row: 1/2;
     justify-self: end;
+    align-self: center;
+    margin-right: 10px;
 }
 
 #menu {
     grid-column: 2/3;
     grid-row: 2/3;
+
 }
 
 
@@ -147,7 +149,6 @@ nav a {
     text-decoration: none;
 }
 
-footer {}
 
 
 
@@ -188,6 +189,7 @@ footer {}
 
 .splash_img {
     position: absolute;
+<<<<<<< HEAD
     background-repeat: no-repeat;
     background-image: url(billeder/large/Charlize_large.jpg);
     object-fit: contain;
@@ -198,6 +200,20 @@ footer {}
 
 
 
+=======
+    background-image: url(billeder/small/Charlize_small.jpg);
+    width: 100vw;
+    height: 50vh;
+    top: 10%;
+>>>>>>> origin/master
+
+    /*Luna har rettet her*/
+    background-repeat: no-repeat;
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+*/
 
 }
 
@@ -408,6 +424,49 @@ footer {}
 
 /*-----PRODUCT LIST-----*/
 
+#ekstramenu h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#ekstramenu nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#ekstramenu button {
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    margin: 8px 5px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.solbriller img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.solbriller h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.solbriller {
+    padding-bottom: 30px;
+}
+
 
 /*
 Brug til dynamisk indhold af produktlisterne, mediqaueries behøves så ikke
@@ -510,7 +569,25 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 /*-----PRODUCT LIST SLUT-----*/
 
 /*-----SINGLE VIEW-----*/
+#detalje img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
 
+#detalje h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+#detalje h2,
+h3,
+h4 {
+    text-align: center;
+
+}
 
 
 
@@ -617,7 +694,7 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .about_text h2,
-#about_container h1 {
+.about_text h1 {
     text-align: center;
     padding: 10px;
 }
@@ -685,14 +762,15 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
 /*-----CONTACT-----*/
 
-
+/*
 #contact_container {
 
-    /*display: grid;
-    grid-template-columns: repeat (autofill, min-max(300px, 1fr));*/
+    display: grid;
+    grid-template-columns: repeat (autofill, min-max(300px, 1fr));
 
 
 }
+*/
 
 
 .contact_image {
@@ -831,26 +909,16 @@ aside {
         display: inline-block;
         padding: 20px 15px;
         margin-top: 10px;
+        font-size: 1.2rem;
     }
 
     .tilbage {
         background-image: url(billeder/backbuttongreen.svg);
         height: 44px;
         width: 80px;
-
-    }
-
-
-    button {
         display: flex;
-        padding: 5px;
-        font-size: 1.8rem;
-        color: whitesmoke;
-        border: none;
-        background-color: burlywood;
-        cursor: pointer;
-    }
 
+    }
 
     button:hover {
         transition: .2s;
@@ -936,13 +1004,82 @@ aside {
     #logo {
         margin: 10px;
         padding: 0px;
-        height: 68px;
-        width: 120px;
+        height: 77px;
+        width: 150px;
         grid-column: 1/2;
 
     }
 
 
+    /*--- mediaquery productlist ---*/
+    #ekstramenu button:hover {
+        border-top: #AAA69B solid 2px;
+
+    }
+
+    /*
+    #ekstramenu h1 {
+        display: flex;
+        text-align: center;
+    }
+
+
+    #ekstramenu nav {
+        display: flex;
+        justify-content: center;
+    }*/
+
+    /*
+#ekstramenu button {
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    margin: 8px 5px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 16px;
+    text-align: center;
+
+
+}*/
+
+
+
+
+
+
+
+
+
+
+    /*--- mediaquery productlist SLUT ---*/
+
+    /*------------mediaquery single view START----------*/
+    #detalje img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 40%;
+    }
+
+
+    #detalje h1 {
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 10px;
+    }
+
+    #detalje h2,
+    h3,
+    h4 {
+        text-align: center;
+
+    }
+
+
+    /*------------mediaquery single view SLUT----------*/
 
 
 
@@ -1074,9 +1211,8 @@ aside {
         width: 2vw;
     }
 
-
-
 }
+
 
 
 @media only screen and (min-width: 1036px) {
@@ -1091,7 +1227,6 @@ aside {
         padding: 20px 40px;
     }
 }
-
 
 
 
