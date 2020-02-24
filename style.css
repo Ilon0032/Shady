@@ -749,15 +749,8 @@ h4 {
 
 /*-----CONTACT-----*/
 
-/*
-#contact_container {
-
-    display: grid;
-    grid-template-columns: repeat (autofill, min-max(300px, 1fr));
 
 
-}
-*/
 
 
 .contact_image {
@@ -766,7 +759,7 @@ h4 {
     height: 500px;
     width: 100vw;
     object-fit: contain;
-
+    margin-top: 5vw;
 
 
 
@@ -774,6 +767,7 @@ h4 {
 
 .contact_text {
     border: none;
+    padding: 15vw;
 }
 
 .contact_text h1,
@@ -818,14 +812,26 @@ h4 {
 
 
 /*-----CONTACT SLUT-----*/
-/*------FOOTER---------*/
+/*------FOOTER ---------*/
 
 
 #footerindhold {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #9FAC9A;
 
-    background-color: #f2f2f2;
+
+
+}
+
+
+
+.kontakt_titel {
+    font-size: 22px;
+    text-transform: uppercase;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 
 
 }
@@ -833,27 +839,50 @@ h4 {
 .adresse,
 aside {
     margin: 5px 10px;
-    padding: 20px;
+    padding: 30px;
 
 }
 
-
-.kontakt_titel {
-    font-size: 22px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
 
 #kontakt p {
-    margin: 0 0 10px 0;
+    margin: 5 5 10px 0;
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .kontakt_img {
     width: 5vw;
 }
+
+
+/*.social,
+aside {
+    margin: 5px 10px;
+    padding: 30px;
+
+}
+
+.kontakt_titel {
+    font-size: 22px;
+    text-transform: uppercase;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+
+}
+
+
+.social_img {
+    width: 5vw;
+}
+*/
+
+
+
+
+
+
 
 
 /*----- FOOTER SLUT -----*/
@@ -1167,24 +1196,20 @@ aside {
 
     /****** footer ******/
 
+    /****** footer ******/
+
     #footerindhold {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        background-color: #f2f2f2;
-
-    }
-
-    .adresse,
-    aside {
-
-        margin: 5px 10px;
-        padding: 20px;
+        background-color: #9FAC9A;
+        margin-top: 5vw;
+        padding-left: 10vw;
 
     }
 
 
     .kontakt_titel {
-        font-size: 22px;
+        font-size: 20px;
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
     }
@@ -1192,36 +1217,59 @@ aside {
     #kontakt p {
         margin: 0 0 10px 0;
         font-family: 'Raleway', sans-serif;
+
+    }
+
+    .adresse,
+    aside {
+
+        margin: 5px 10px;
+        padding: 5px;
+
     }
 
     .kontakt_img {
         width: 2vw;
     }
 
-}
 
 
+    /*.social,
+    aside {
+        margin: 5px 10px;
+        padding: 30px;
 
-@media only screen and (min-width: 1036px) {
-    nav a {
-        padding: 20px 20px;
     }
-}
 
+    .socialemedier_titel {
+        font-size: 22px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
 
-@media only screen and (min-width: 1223px) {
-    nav a {
-        padding: 20px 40px;
     }
-}
 
 
 
+    .social_img {
+        width: 2vw;
+    }
+*/
 
 
 
+    @media only screen and (min-width: 1036px) {
+        nav a {
+            padding: 20px 20px;
+        }
+    }
 
 
+    @media only screen and (min-width: 1223px) {
+        nav a {
+            padding: 20px 40px;
+        }
+    }
 
 
 
@@ -1306,4 +1354,12 @@ aside {
 
 
 
-/*-----MEDIA QUERIES SLUT-----*/
+
+
+
+
+
+
+
+
+    /*-----MEDIA QUERIES SLUT-----*/
