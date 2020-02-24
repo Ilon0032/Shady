@@ -177,22 +177,35 @@ nav a {
 
 /*-----LANDING PAGE-----*/
 
-#landing_page {
-    position: relative;
-}
+#landing_page {}
 
 
 #splash_container {
     background-color: #27331B;
     height: 70vh;
+
+    position: relative;
 }
 
 .splash_img {
     position: absolute;
+<<<<<<< HEAD
+    background-repeat: no-repeat;
+    background-image: url(billeder/large/Charlize_large.jpg);
+    object-fit: contain;
+    width: 90vw;
+    height: 40vh;
+    top: 20%;
+    left: 5vw;
+
+
+
+=======
     background-image: url(billeder/small/Charlize_small.jpg);
     width: 100vw;
     height: 50vh;
     top: 10%;
+>>>>>>> origin/master
 
     /*Luna har rettet her*/
     background-repeat: no-repeat;
