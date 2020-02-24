@@ -189,8 +189,7 @@ nav a {
 
 .splash_img {
     position: absolute;
-<<<<<<< HEAD
-    background-repeat: no-repeat;
+    <<<<<<< HEAD background-repeat: no-repeat;
     background-image: url(billeder/large/Charlize_large.jpg);
     object-fit: contain;
     width: 90vw;
@@ -200,13 +199,11 @@ nav a {
 
 
 
-=======
-    background-image: url(billeder/small/Charlize_small.jpg);
+    =======background-image: url(billeder/small/Charlize_small.jpg);
     width: 100vw;
     height: 50vh;
     top: 10%;
->>>>>>> origin/master
-
+    > > > > > > > origin/master
     /*Luna har rettet her*/
     background-repeat: no-repeat;
     /*
