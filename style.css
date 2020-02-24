@@ -190,7 +190,7 @@ nav a {
 .splash_img {
     position: absolute;
     background-repeat: no-repeat;
-    background-image: url(billeder/large/Charlize_large.jpg);
+    background-image: url(billeder/splashtest3.jpg);
 
     width: 90vw;
     height: 40vh;
@@ -983,11 +983,12 @@ aside {
 
     .splash_img {
         position: absolute;
-        background-image: url(billeder/Charlize%2009.21.06.jpg);
+        background-image: url(billeder/splashtest3.jpg);
         width: 60vw;
         height: 50vh;
         top: 10%;
-        left: 20vw;
+        left: 25vw;
+
 
 
     }
