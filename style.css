@@ -1075,7 +1075,7 @@ aside {
         width: 100%;
         background-repeat: no-repeat;
         margin-right: 50px;
-        <<<<<<< HEAD======= > > > > > > > origin/master
+
     }
 
 
@@ -1095,23 +1095,21 @@ aside {
 
 
 
-    <<<<<<< HEAD======= > > > > > > > origin/master
+
     /*---Mediaquery contact---*/
 
     #contact_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        <<<<<<< HEAD margin-top: 5vw;
-        =======margin-top: 3vw;
+        margin-top: 5vw;
 
 
-        > > > > > > > origin/master
     }
 
 
     .contact_text {
         width: 100%;
-        <<<<<<< HEAD======= > > > > > > > origin/master
+
     }
 
     .contact_image {
@@ -1266,51 +1264,5 @@ aside {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
 /*-----MEDIA QUERIES SLUT-----*/
-=======
-/*-----MEDIA QUERIES SLUT-----*/
-> > > > > > > origin/master
+r
