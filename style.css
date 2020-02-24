@@ -41,13 +41,20 @@ a {
     color: #27331B;
 }
 
+/*a:hover - Udkommenteret fordi der ikke behøver at være hover på i mobile, da det alligevel ikke kan benyttes*/
+
+/*
 a:hover {
     border-top: #AAA69B solid 2px;
 }
+*/
 
-a:active {
-    color: #AAA69B;
+#ekstramenu button:active {
+    color: #27331B;
+    border-top: #AAA69B solid 2px;
+
 }
+
 
 /*tilbageknap*/
 
@@ -410,6 +417,7 @@ nav a {
 #ekstramenu h1 {
     display: flex;
     justify-content: center;
+    margin-bottom: 5px;
 }
 
 #ekstramenu nav {
@@ -448,6 +456,7 @@ h3 {
 
 .solbriller {
     padding-bottom: 30px;
+    cursor: pointer;
 }
 
 
@@ -456,36 +465,6 @@ Brug til dynamisk indhold af produktlisterne, mediqaueries behøves så ikke
 \display: Grid;
 grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -672,7 +651,7 @@ h4 {
     background-image: url(billeder/tilomside_mobil.jpg);
     height: 500px;
     width: 100vw;
-    object-fit: contain;
+    background-repeat: no-repeat;
 
 }
 
@@ -1026,41 +1005,9 @@ aside {
     /*--- mediaquery productlist ---*/
     #ekstramenu button:hover {
         border-top: #AAA69B solid 2px;
+        margin-top: 3px;
 
     }
-
-    /*
-    #ekstramenu h1 {
-        display: flex;
-        text-align: center;
-    }
-
-
-    #ekstramenu nav {
-        display: flex;
-        justify-content: center;
-    }*/
-
-    /*
-#ekstramenu button {
-    cursor: pointer;
-    border: none;
-    text-decoration: none;
-    margin: 8px 5px;
-    background-color: transparent;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    padding: 8px 16px;
-    text-align: center;
-
-
-}*/
-
-
-
-
-
-
 
 
 
@@ -1114,7 +1061,6 @@ aside {
         width: 100%;
         background-repeat: no-repeat;
         margin-right: 50px;
-
     }
 
 
@@ -1132,34 +1078,17 @@ aside {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     /*---Mediaquery contact---*/
 
     #contact_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-
-
+        margin-top: 5vw;
     }
 
 
     .contact_text {
         width: 100%;
-
-
-
-
     }
 
     .contact_image {
@@ -1168,8 +1097,6 @@ aside {
         width: 100%;
         background-repeat: no-repeat;
         margin-right: 50px;
-
-
 
     }
 
@@ -1252,21 +1179,21 @@ aside {
         width: 2vw;
     }
 */
+}
 
 
-
-    @media only screen and (min-width: 1036px) {
-        nav a {
-            padding: 20px 20px;
-        }
+@media only screen and (min-width: 1036px) {
+    nav a {
+        padding: 20px 20px;
     }
+}
 
 
-    @media only screen and (min-width: 1223px) {
-        nav a {
-            padding: 20px 40px;
-        }
+@media only screen and (min-width: 1223px) {
+    nav a {
+        padding: 20px 40px;
     }
+}
 
 
 
@@ -1359,4 +1286,4 @@ aside {
 
 
 
-    /*-----MEDIA QUERIES SLUT-----*/
+/*-----MEDIA QUERIES SLUT-----*/
