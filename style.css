@@ -1321,6 +1321,10 @@ aside {
         margin-top: 20px;
     }
 
+    #detalje {
+        margin: 3vw;
+    }
+
     #detalje img {
         display: block;
         margin-left: auto;
@@ -1334,13 +1338,27 @@ aside {
         padding-top: 10px;
     }
 
-    #detalje h2,
-    #detalje h3,
-    #detalje h4 {
+
+    #detalje h3 {
         text-align: center;
         padding: 10px;
         font-size: 2rem;
 
+    }
+
+
+
+    #detalje h4 {
+        text-align: center;
+        padding: 10px;
+        font-size: 1.3rem;
+
+    }
+
+    #detalje h2 {
+        text-align: center;
+        padding: 10px;
+        font-size: 2rem;
     }
 }
 
