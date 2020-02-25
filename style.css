@@ -61,7 +61,7 @@ a:hover {
     height: 20px;
     width: 40px;
     border-style: none;
-    background: none;
+    background-color: transparent;
     margin-left: 6.5vw;
     margin-top: 5vw;
 
