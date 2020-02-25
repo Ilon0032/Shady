@@ -41,6 +41,8 @@ a {
     color: #27331B;
 }
 
+
+
 /*a:hover - Udkommenteret fordi der ikke behøver at være hover på i mobile, da det alligevel ikke kan benyttes*/
 
 /*
@@ -58,6 +60,8 @@ a:hover {
     background-image: url(billeder/backbuttongreen.svg);
     height: 22px;
     width: 40px;
+    border-style: none;
+    background: none;
 
 }
 
@@ -193,7 +197,7 @@ nav a {
 .splash_img {
     position: absolute;
     background-repeat: no-repeat;
-    background-image: url(billeder/large/Charlize_large.jpg);
+    background-image: url(billeder/splashtest3.jpg);
 
     width: 90vw;
     height: 40vh;
@@ -911,9 +915,13 @@ aside {
         font-size: 1.2rem;
     }
 
+    <<<<<<< HEAD=======nav a:active {
+        color: #27331B;
+        border-top: #AAA69B solid 2px;
+        text-decoration: overline #AAA69B solid 2px;
+    }
 
-
-    .tilbage {
+    > > > > > > > origin/master .tilbage {
         background-image: url(billeder/backbuttongreen.svg);
         height: 44px;
         width: 80px;
@@ -962,11 +970,12 @@ aside {
 
     .splash_img {
         position: absolute;
-        background-image: url(billeder/Charlize%2009.21.06.jpg);
+        background-image: url(billeder/splashtest3.jpg);
         width: 60vw;
         height: 50vh;
         top: 10%;
-        left: 20vw;
+        left: 25vw;
+
 
 
     }
@@ -1080,6 +1089,9 @@ aside {
 
     }
 
+    #detalje h3 {
+        font-size: 2rem;
+    }
 
     /*------------mediaquery single view SLUT----------*/
 
@@ -1295,4 +1307,3 @@ aside {
 
 
 /*-----MEDIA QUERIES SLUT-----*/
-r
