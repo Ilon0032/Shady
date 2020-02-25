@@ -915,10 +915,7 @@ aside {
     font-size: 1.2rem;
 }
 
-<<<<<<< HEAD=======nav a:active {
-    color: #27331B;
-    border-right: #AAA69B solid 2px;
-}
+
 
 nav a:hover {
     border-right: #AAA69B solid 2px;
@@ -965,8 +962,8 @@ button:hover {
     display: grid;
     margin-top: 0.9vw;
     height: 100vh;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 
 
 }
@@ -976,8 +973,8 @@ button:hover {
     background-image: url(billeder/splashtest3.jpg);
     width: 60vw;
     height: 50vh;
-    top: 10%;
-    left: 25vw;
+    top: 25%;
+    left: 45vw;
     object-fit: contain;
 
 
@@ -991,13 +988,13 @@ button:hover {
 
 .left {
     grid-column: 1/3;
-    background-color: #27331B;
+    background-color: #9FAC9A;
 }
 
 .right {
     grid-column: 3/5;
 
-    background-color: #9FAC9A;
+    background-color: #27331B;
 }
 
 
