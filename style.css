@@ -36,12 +36,19 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 a {
     font-size: 1.2rem;
     color: #27331B;
+
 }
 
 
+.logo {
+    grid-column: 2/3;
+    justify-self: center;
+}
 
 /*a:hover - Udkommenteret fordi der ikke behøver at være hover på i mobile, da det alligevel ikke kan benyttes*/
 
@@ -69,7 +76,6 @@ a:hover {
 }
 
 #logo {
-    grid-column: 2/3;
     display: inline-block;
     justify-self: center;
     margin-top: 10px;
@@ -120,6 +126,7 @@ a:hover {
     grid-row: 2/3;
 
 }
+
 
 
 
@@ -187,43 +194,32 @@ nav a {
 
 /*-----LANDING PAGE-----*/
 
-#landing_page {}
+
 
 
 #splash_container {
     background-color: #27331B;
-    height: 70vh;
-
+    height: 65vh;
     position: relative;
 }
 
-.splash_img {
-    position: absolute;
-    background-repeat: no-repeat;
-    background-image: url(billeder/splashtest3.jpg);
-
-    width: 90vw;
-    height: 40vh;
-    top: 20%;
-    left: 5vw;
-
-
-}
 
 
 #splash_text {
-    height: 25vh;
+    height: 23vh;
 
 }
 
 #splash_text h1 {
     text-align: center;
-    padding: 10px;
+    padding-top: 35px;
+    font-size: 2rem;
 }
 
 #splash_text h2 {
     text-align: center;
     padding: 10px;
+
 }
 
 
@@ -1028,12 +1024,20 @@ aside {
 
     #logo {
         margin: 10px;
-        margin-left: 6.5vw;
         padding: 0px;
         height: 77px;
         width: 150px;
         grid-column: 1/2;
 
+    }
+
+    .logo {
+        grid-column: 1/2;
+
+    }
+
+    .mobileSplash {
+        display: none;
     }
 
 
