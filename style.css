@@ -41,6 +41,8 @@ a {
     color: #27331B;
 }
 
+
+
 /*a:hover - Udkommenteret fordi der ikke behøver at være hover på i mobile, da det alligevel ikke kan benyttes*/
 
 /*
@@ -62,6 +64,8 @@ a:hover {
     background-image: url(billeder/backbuttongreen.svg);
     height: 22px;
     width: 40px;
+    border-style: none;
+    background: none;
 
 }
 
@@ -915,6 +919,12 @@ aside {
         font-size: 1.2rem;
     }
 
+    nav a:active {
+        color: #27331B;
+        border-top: #AAA69B solid 2px;
+        text-decoration: overline #AAA69B solid 2px;
+    }
+
     .tilbage {
         background-image: url(billeder/backbuttongreen.svg);
         height: 44px;
@@ -1052,6 +1062,9 @@ aside {
 
     }
 
+    #detalje h3 {
+        font-size: 2rem;
+    }
 
     /*------------mediaquery single view SLUT----------*/
 
