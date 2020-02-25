@@ -980,7 +980,7 @@ aside {
 
     .splash_img {
         position: absolute;
-        /*        background-image: url(billeder/splashtest3.jpg);*/
+        background-image: url(billeder/alonso_splash615x528.jpg);
         background-color: red;
         width: 40vw;
         height: 70vh;
@@ -998,7 +998,7 @@ aside {
 
     .left {
         grid-column: 1/3;
-        background-color: #9FAC9A;
+        background-color: #F2F2F2;
     }
 
     .right {
@@ -1016,11 +1016,13 @@ aside {
     #splash_text h1 {
         text-align: center;
         padding: 10px;
+        font-size: 3rem;
     }
 
     #splash_text h2 {
         text-align: center;
         padding: 10px;
+        font-size: 1.9rem;
     }
 
     #logo {
