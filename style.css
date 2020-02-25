@@ -49,11 +49,7 @@ a:hover {
 }
 */
 
-#ekstramenu button:active {
-    color: #27331B;
-    border-top: #AAA69B solid 2px;
 
-}
 
 
 /*tilbageknap*/
@@ -907,13 +903,15 @@ aside {
     }
 
 
-    nav a {
+    header nav a {
 
         display: inline-block;
         padding: 20px 15px;
         margin-top: 10px;
         font-size: 1.2rem;
     }
+
+
 
     .tilbage {
         background-image: url(billeder/backbuttongreen.svg);
@@ -945,7 +943,6 @@ aside {
 
 
 
-
     /********* HOME ********/
 
     #landing_page {
@@ -956,7 +953,7 @@ aside {
     #splash_container {
         display: grid;
         margin-top: 0.9vw;
-        height: 75vh;
+        height: 100vh;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
 
@@ -975,7 +972,7 @@ aside {
     }
 
     .colorbox {
-        height: 75vh;
+        height: 100vh;
 
     }
 
@@ -991,10 +988,7 @@ aside {
     }
 
 
-    #splash_text {
-        height: 25vh;
 
-    }
 
     #splash_text h1 {
         text-align: center;
@@ -1017,13 +1011,48 @@ aside {
 
 
     /*--- mediaquery productlist ---*/
+
+
+    #ekstramenu button:link {
+        cursor: pointer;
+        border: none;
+        text-decoration: none;
+        margin: 8px 5px;
+        background-color: transparent;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+
+    }
+
+
+    #ekstramenu button:visited {
+        cursor: pointer;
+        border: none;
+        text-decoration: none;
+        margin: 8px 5px;
+        background-color: transparent;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+
     #ekstramenu button:hover {
         border-top: #AAA69B solid 2px;
         margin-top: 3px;
 
     }
 
+    #ekstramenu button:active {
+        border-top: #AAA69B solid 2px;
+        margin-top: 3px;
 
+    }
 
 
     /*--- mediaquery productlist SLUT ---*/
@@ -1103,8 +1132,8 @@ aside {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 5vw;
 
-
     }
+
 
 
     .contact_text {
@@ -1127,6 +1156,7 @@ aside {
         font-size: 30px;
         margin: 2px;
     }
+
 
     .contact_text p {
         text-align: center;
