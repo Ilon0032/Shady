@@ -1305,10 +1305,17 @@ aside {
         text-align: center;
         font-size: 3rem;
         padding-top: 10px;
+        font-size: 1.7rem;
     }
 
-    #detalje h2,
-    #detalje h3,
+    #detalje h2 {
+        text-align: center;
+        padding: 10px;
+        font-size: 1.7rem;
+
+    }
+
+
     #detalje h4 {
         text-align: center;
         padding: 10px;
@@ -1330,7 +1337,7 @@ aside {
     }
 
     #detalje {
-        margin: 3vw;
+        margin: 2vw;
     }
 
     #detalje img {
