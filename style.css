@@ -981,7 +981,7 @@ aside {
     .splash_img {
         position: absolute;
         background-image: url(billeder/alonso_splash615x528.jpg);
-        background-color: red;
+
         width: 40vw;
         height: 70vh;
         top: 10%;
