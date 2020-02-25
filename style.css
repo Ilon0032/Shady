@@ -58,10 +58,13 @@ a:hover {
 
 .tilbage {
     background-image: url(billeder/backbuttongreen.svg);
-    height: 22px;
+    height: 20px;
     width: 40px;
     border-style: none;
     background: none;
+    margin-left: 6.5vw;
+    margin-top: 5vw;
+
 
 }
 
@@ -917,9 +920,14 @@ aside {
 
 
 
+<<<<<<< HEAD
+
+    }
+=======
 nav a:hover {
     border-right: #AAA69B solid 2px;
 }
+>>>>>>> origin/master
 
 .tilbage {
     background-image: url(billeder/backbuttongreen.svg);
