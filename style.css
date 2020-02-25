@@ -924,6 +924,9 @@ aside {
         border-right: #AAA69B solid 2px;
     }
 
+
+
+
     .tilbage {
         background-image: url(billeder/backbuttongreen.svg);
         height: 44px;
@@ -936,6 +939,8 @@ aside {
         transition: .2s;
         border-top: solid 3px #AAA69B;
     }
+
+
 
     .valgt {
         border-top: solid 3px rgba(255, 255, 255, .5);
