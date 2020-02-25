@@ -1007,6 +1007,12 @@ aside {
         background-color: #27331B;
     }
 
+    #splash_text {
+        position: absolute;
+        top: 23%;
+        left: 10%;
+    }
+
     #splash_text h1 {
         text-align: center;
         padding: 10px;
