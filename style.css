@@ -912,17 +912,19 @@ aside {
 
 
     nav a {
-
         display: inline-block;
         padding: 20px 15px;
-        margin-top: 10px;
+        margin-top: 12px;
         font-size: 1.2rem;
     }
 
     nav a:active {
         color: #27331B;
-        border-top: #AAA69B solid 2px;
-        text-decoration: overline #AAA69B solid 2px;
+        border-right: #AAA69B solid 2px;
+    }
+
+    nav a:hover {
+        border-right: #AAA69B solid 2px;
     }
 
     .tilbage {
@@ -935,7 +937,7 @@ aside {
 
     button:hover {
         transition: .2s;
-        border-top: solid 3px whitesmoke;
+        border-top: solid 3px #AAA69B;
     }
 
     .valgt {
@@ -1029,7 +1031,7 @@ aside {
 
     /*--- mediaquery productlist ---*/
     #ekstramenu button:hover {
-        border-top: #AAA69B solid 2px;
+        border-right: #AAA69B solid 2px;
         margin-top: 3px;
 
     }
