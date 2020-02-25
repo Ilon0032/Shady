@@ -970,6 +970,7 @@ aside {
         height: 50vh;
         top: 10%;
         left: 25vw;
+        object-fit: contain;
 
 
 
