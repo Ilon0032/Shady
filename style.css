@@ -907,18 +907,14 @@ aside {
     }
 
 
-
-
+    nav a {
     display: inline-block;
     padding: 20px 15px;
     margin-top: 12px;
     font-size: 1.2rem;
 }
 
-<<<<<<< HEAD=======nav a:active {
-    color: #27331B;
-    border-right: #AAA69B solid 2px;
-}
+
 
 nav a:hover {
     border-right: #AAA69B solid 2px;
