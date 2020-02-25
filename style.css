@@ -943,6 +943,11 @@ aside {
 
 
 
+    a:visited {
+        color: rosybrown;
+
+    }
+
     .valgt {
         border-top: solid 3px rgba(255, 255, 255, .5);
     }
