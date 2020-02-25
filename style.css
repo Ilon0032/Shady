@@ -919,6 +919,7 @@ aside {
 
     nav a:hover {
         border-right: #AAA69B solid 2px;
+
     }
 
 
@@ -929,12 +930,15 @@ aside {
         height: 44px;
         width: 80px;
         display: flex;
+        cursor: pointer;
+
 
     }
 
     button:hover {
         transition: .2s;
-        border-top: solid 3px #AAA69B;
+        transform: scale(1.1);
+
     }
 
 
