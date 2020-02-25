@@ -968,291 +968,270 @@ aside {
     }
 
 
-    <<<<<<< HEAD #splash_container {
+
+    #splash_container {
         display: grid;
         margin-top: 0.9vw;
         height: 100vh;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-
-        =======#splash_container {
-            display: grid;
-            margin-top: 0.9vw;
-            height: 100vh;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            > > > > > > > origin/master
-        }
-
-        <<<<<<< HEAD .splash_img {
-            position: absolute;
-            background-image: url(billeder/splashtest3.jpg);
-            width: 60vw;
-            height: 50vh;
-            top: 10%;
-            left: 25vw;
-            object-fit: contain;
-
-            =======.splash_img {
-                position: absolute;
-                background-image: url(billeder/splashtest3.jpg);
-                width: 60vw;
-                height: 50vh;
-                top: 25%;
-                left: 45vw;
-                object-fit: contain;
-                > > > > > > > origin/master
-            }
-
-            .colorbox {
-                height: 100vh;
-
-            }
-
-            <<<<<<< HEAD .left {
-                grid-column: 1/3;
-                background-color: #27331B;
-            }
-
-            =======.left {
-                grid-column: 1/3;
-                background-color: #9FAC9A;
-            }
-
-            > > > > > > > origin/master .right {
-                grid-column: 3/5;
-
-                <<<<<<< HEAD background-color: #9FAC9A;
-            }
-
-            =======background-color: #27331B;
-        }
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
 
-        > > > > > > > origin/master #splash_text h1 {
-            text-align: center;
-            padding: 10px;
-        }
 
-        #splash_text h2 {
-            text-align: center;
-            padding: 10px;
-        }
 
-        #logo {
-            margin: 10px;
-            padding: 0px;
-            height: 77px;
-            width: 150px;
-            grid-column: 1/2;
+    .splash_img {
+        position: absolute;
+        background-image: url(billeder/splashtest3.jpg);
+        width: 60vw;
+        height: 50vh;
+        top: 25%;
+        left: 45vw;
+        object-fit: contain;
 
-        }
+    }
 
+    .colorbox {
+        height: 100vh;
 
-        /*--- mediaquery productlist ---*/
+    }
 
 
-        #ekstramenu button:link {
-            cursor: pointer;
-            border: none;
-            text-decoration: none;
-            margin: 8px 5px;
-            background-color: transparent;
-            font-size: 20px;
-            font-family: 'Raleway', sans-serif;
-            padding: 8px 16px;
-            text-align: center;
-            text-decoration: none;
+    .left {
+        grid-column: 1/3;
+        background-color: #9FAC9A;
+    }
 
-        }
+    .right {
+        grid-column: 3/5;
 
+        background-color: #27331B;
+    }
 
-        #ekstramenu button:visited {
-            cursor: pointer;
-            border: none;
-            text-decoration: none;
-            margin: 8px 5px;
-            background-color: transparent;
-            font-size: 20px;
-            font-family: 'Raleway', sans-serif;
-            padding: 8px 16px;
-            text-align: center;
-            text-decoration: none;
-        }
+    #splash_text h1 {
+        text-align: center;
+        padding: 10px;
+    }
 
+    #splash_text h2 {
+        text-align: center;
+        padding: 10px;
+    }
 
-        #ekstramenu button:hover {
-            border-right: #AAA69B solid 2px;
-            margin-top: 3px;
+    #logo {
+        margin: 10px;
+        padding: 0px;
+        height: 77px;
+        width: 150px;
+        grid-column: 1/2;
 
-        }
+    }
 
-        #ekstramenu button:active {
-            border-top: #AAA69B solid 2px;
-            margin-top: 3px;
 
-        }
+    /*--- mediaquery productlist ---*/
 
 
-        /*--- mediaquery productlist SLUT ---*/
+    #ekstramenu button:link {
+        cursor: pointer;
+        border: none;
+        text-decoration: none;
+        margin: 8px 5px;
+        background-color: transparent;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
 
-        /*------------mediaquery single view START----------*/
-        #detalje img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
+    }
 
-            width: 40%;
-        }
 
+    #ekstramenu button:visited {
+        cursor: pointer;
+        border: none;
+        text-decoration: none;
+        margin: 8px 5px;
+        background-color: transparent;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+    }
 
-        #detalje h1 {
-            text-align: center;
-            font-size: 2rem;
-            padding-top: 10px;
-        }
 
-        #detalje h2,
-        h3,
-        h4 {
-            text-align: center;
+    #ekstramenu button:hover {
+        border-right: #AAA69B solid 2px;
+        margin-top: 3px;
 
-        }
+    }
 
-        #detalje h3 {
-            font-size: 2rem;
-        }
+    #ekstramenu button:active {
+        border-top: #AAA69B solid 2px;
+        margin-top: 3px;
 
-        /*------------mediaquery single view SLUT----------*/
+    }
 
 
+    /*--- mediaquery productlist SLUT ---*/
 
-        /* mediaquery ABOUT */
-        #about_container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            margin-top: 3vw;
+    /*------------mediaquery single view START----------*/
+    #detalje img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
-        }
+        width: 40%;
+    }
 
-        .about_text {
-            width: 100%;
 
-        }
+    #detalje h1 {
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 10px;
+    }
 
-        .about_image {
-            background-image: url(billeder/aboutimage5.jpg);
-            height: 100vh;
-            width: 100%;
-            background-repeat: no-repeat;
-            margin-right: 50px;
+    #detalje h2,
+    h3,
+    h4 {
+        text-align: center;
 
-        }
+    }
 
+    #detalje h3 {
+        font-size: 2rem;
+    }
 
-        .about_text h1 {
-            text-align: center;
-            padding: 10px;
-            font-size: 30px;
-        }
+    /*------------mediaquery single view SLUT----------*/
 
-        .about_text p {
-            text-align: center;
-            margin: 10px;
-            font-size: 15px;
-        }
 
 
+    /* mediaquery ABOUT */
+    #about_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 3vw;
 
+    }
 
+    .about_text {
+        width: 100%;
 
+    }
 
-        /*---Mediaquery contact---*/
+    .about_image {
+        background-image: url(billeder/aboutimage5.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin-right: 50px;
 
-        #contact_container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            margin-top: 5vw;
+    }
 
-        }
 
+    .about_text h1 {
+        text-align: center;
+        padding: 10px;
+        font-size: 30px;
+    }
 
+    .about_text p {
+        text-align: center;
+        margin: 10px;
+        font-size: 15px;
+    }
 
-        .contact_text {
-            width: 100%;
 
-        }
 
-        .contact_image {
-            background-image: url(billeder/contactimage3.jpg);
-            height: 100vh;
-            width: 100%;
-            background-repeat: no-repeat;
-            margin-right: 50px;
 
-        }
 
 
-        .contact_text h1 {
-            text-align: center;
-            font-size: 30px;
-            margin: 2px;
-        }
+    /*---Mediaquery contact---*/
 
+    #contact_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 5vw;
 
-        .contact_text p {
-            text-align: center;
-            margin: 10px;
-            font-size: 15px;
-        }
+    }
 
 
 
-        /*---Mediaquery contact slut---*/
+    .contact_text {
+        width: 100%;
 
+    }
 
+    .contact_image {
+        background-image: url(billeder/contactimage3.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin-right: 50px;
 
+    }
 
-        /****** footer ******/
 
-        /****** footer ******/
+    .contact_text h1 {
+        text-align: center;
+        font-size: 30px;
+        margin: 2px;
+    }
 
-        #footerindhold {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            background-color: #9FAC9A;
 
-            padding-left: 25vw;
+    .contact_text p {
+        text-align: center;
+        margin: 10px;
+        font-size: 15px;
+    }
 
-        }
 
 
-        .kontakt_titel {
-            font-size: 20px;
-            text-transform: uppercase;
-            font-family: 'Montserrat', sans-serif;
-        }
+    /*---Mediaquery contact slut---*/
 
-        #kontakt p {
-            margin: 0 0 10px 0;
-            font-family: 'Raleway', sans-serif;
 
-        }
 
-        .adresse,
-        aside {
 
-            margin: 5px 10px;
-            padding: 5px;
+    /****** footer ******/
 
-        }
+    /****** footer ******/
 
-        .kontakt_img {
-            width: 2vw;
-        }
+    #footerindhold {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #9FAC9A;
 
+        padding-left: 25vw;
 
+    }
 
-        /*.social,
+
+    .kontakt_titel {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #kontakt p {
+        margin: 0 0 10px 0;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    .adresse,
+    aside {
+
+        margin: 5px 10px;
+        padding: 5px;
+
+    }
+
+    .kontakt_img {
+        width: 2vw;
+    }
+
+
+
+    /*.social,
     aside {
         margin: 5px 10px;
         padding: 30px;
@@ -1273,21 +1252,21 @@ aside {
         width: 2vw;
     }
 */
+}
+
+
+@media only screen and (min-width: 1036px) {
+    nav a {
+        padding: 20px 20px;
     }
+}
 
 
-    @media only screen and (min-width: 1036px) {
-        nav a {
-            padding: 20px 20px;
-        }
+@media only screen and (min-width: 1223px) {
+    nav a {
+        padding: 20px 40px;
     }
-
-
-    @media only screen and (min-width: 1223px) {
-        nav a {
-            padding: 20px 40px;
-        }
-    }
+}
 
 
 
@@ -1335,4 +1314,4 @@ aside {
 
 
 
-    /*-----MEDIA QUERIES SLUT-----*/
+/*-----MEDIA QUERIES SLUT-----*/
