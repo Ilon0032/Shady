@@ -814,7 +814,9 @@ h4 {
 
 }
 
-
+footer {
+    background-color: #9FAC9A;
+}
 
 .kontakt_titel {
 
@@ -882,7 +884,6 @@ aside {
 
 
 
-
 @media only screen and (min-width: 768px) {
 
     body {
@@ -913,7 +914,7 @@ aside {
     nav a {
         display: inline-block;
         font-size: 1.2rem;
-        padding: 8px 30px;
+        padding: 8px 22px;
         margin-top: 20px;
     }
 
@@ -923,6 +924,9 @@ aside {
     nav a:hover {
         border-right: #AAA69B solid 2px;
     }
+
+
+
 
     .tilbage {
         background-image: url(billeder/backbuttongreen.svg);
@@ -936,6 +940,8 @@ aside {
         transition: .2s;
         border-top: solid 3px #AAA69B;
     }
+
+
 
     .valgt {
         border-top: solid 3px rgba(255, 255, 255, .5);
@@ -1198,6 +1204,9 @@ aside {
 
     }
 
+    footer {
+        background-color: #9FAC9A;
+    }
 
     .kontakt_titel {
         font-size: 20px;
@@ -1249,18 +1258,77 @@ aside {
 }
 
 
-@media only screen and (min-width: 1036px) {
+@media only screen and (min-width: 1024px) {
+
     nav a {
         padding: 8px 20px;
         margin-top: 20px;
     }
+
+    .datacontainer {
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+        grid-gap: 10px;
+        max-width: 1200px;
+    }
+
+    #detalje img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%
+    }
+
+    #detalje h1 {
+        text-align: center;
+        font-size: 3rem;
+        padding-top: 10px;
+    }
+
+    #detalje h2,
+    #detalje h3,
+    #detalje h4 {
+        text-align: center;
+        padding: 10px;
+        font-size: 1.7rem;
+
+    }
+
+    footer {
+        background-color: #9FAC9A;
+    }
 }
+
 
 
 @media only screen and (min-width: 1223px) {
     nav a {
         padding: 8px 40px;
         margin-top: 20px;
+    }
+
+    #detalje img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%
+    }
+
+    #detalje h1 {
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 10px;
+    }
+
+    #detalje h2,
+    #detalje h3,
+    #detalje h4 {
+        text-align: center;
+        padding: 10px;
+        font-size: 2rem;
+
     }
 }
 
