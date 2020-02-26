@@ -45,13 +45,6 @@ a {
 }
 
 
-.logo {
-    grid-column: 2/3;
-    justify-self: center;
-}
-
-
-
 
 /*tilbageknap*/
 
@@ -79,6 +72,10 @@ a {
 }
 
 
+.logo {
+    grid-column: 2/3;
+    justify-self: center;
+}
 
 
 
@@ -279,132 +276,7 @@ nav a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----LANDING PAGE SLUT-----*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-----LANDINGPAGE SLUT-----*/
 
 /*-----PRODUCT LIST-----*/
 
