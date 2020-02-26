@@ -13,17 +13,20 @@ body {
 
 header {
     display: grid;
+    /* Viser grid */
     grid-template-columns: 1fr 2fr 1fr;
+    /* 3 colums i størrelses forhold 1fr, 2fr, 1fr,*/
     grid-template-rows: 1fr;
+    /* en række af størrelse 1fr*/
     background-color: #f2f2f2;
+    /* baggrundsfarven */
     margin-bottom: 2vw;
+    /*bottom har en margin på 2 viewport width*/
 }
 
+
 /* font til overskrift, helvetica neue thin*/
-
 /* font til brødtekst, helvetica neue regular*/
-
-
 h2,
 h3,
 h4,
@@ -36,28 +39,10 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 a {
     font-size: 1.2rem;
     color: #27331B;
-
 }
-
-
-.logo {
-    grid-column: 2/3;
-    justify-self: center;
-}
-
-/*a:hover - Udkommenteret fordi der ikke behøver at være hover på i mobile, da det alligevel ikke kan benyttes*/
-
-/*
-a:hover {
-    border-top: #AAA69B solid 2px;
-}
-*/
-
 
 
 
@@ -65,14 +50,14 @@ a:hover {
 
 .tilbage {
     background-image: url(billeder/backbuttongreen.svg);
+    /* baggrundsbillede*/
     height: 20px;
     width: 40px;
     border-style: none;
+    /* viser ingen border på button*/
     background-color: transparent;
     margin-left: 6.5vw;
     margin-top: 5vw;
-
-
 }
 
 #logo {
@@ -87,6 +72,10 @@ a:hover {
 }
 
 
+.logo {
+    grid-column: 2/3;
+    justify-self: center;
+}
 
 
 
@@ -142,28 +131,34 @@ a:hover {
 
 .burger #bar1 {
     transform: rotate(-45deg) translate(-8px, 6px);
-    transform: rotate(-45deg) translate(-8px, 6px);
+    /*roterer -45 grader samt rykker den så det kommer til at ligne et kryds */
 }
 
 .burger #bar2 {
     opacity: 0;
+    /* objektet vises ikke */
 }
 
 .burger #bar3 {
     transform: rotate(45deg) translate(-9px, -8px);
-    transform: rotate(45deg) translate(-9px, -8px);
+    /*roterer -45 grader samt rykker den så det kommer til at ligne et kryds */
 }
 
 
 .hide_nav {
     display: none;
+    /*elementet vises ikke */
 }
 
 nav a {
     display: block;
+    /* elementet vises som et <p> tag som starter på en ny linje og fylder hele bredden */
     padding: 8px 16px;
+    /* padding er 8px i bund og top og 16px i højre og venstre side*/
     text-align: center;
+    /* sætter teksten i center*/
     text-decoration: none;
+    /* defalt understreget strej vises ikke på <a> tagget*/
 }
 
 
@@ -203,11 +198,8 @@ nav a {
     position: relative;
 }
 
-
-
 #splash_text {
     height: 23vh;
-
 }
 
 #splash_text h1 {
@@ -284,132 +276,7 @@ nav a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----LANDING PAGE SLUT-----*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-----LANDINGPAGE SLUT-----*/
 
 /*-----PRODUCT LIST-----*/
 
@@ -428,17 +295,22 @@ nav a {
 
 #ekstramenu button {
     cursor: pointer;
+    /*cursoren for en pointer så det kan ses at elementet er klikbart*/
     border: none;
-    text-decoration: none;
+    /*der vises ingen border på button*/
     margin: 8px 5px;
+    /*margin er 8px i bunden og toppen og 5px i siderne */
     background-color: transparent;
-    font-size: 20px;
+    /*baggrundsfarven er transperant */
+    font-size: 1rem;
+    /*font størrelsen er 1 rem som svarer til 16 px*/
     font-family: 'Raleway', sans-serif;
     padding: 8px 16px;
+    /*padding er 8px i top og bund og 16px i siderne*/
     text-align: center;
+    /*tekst er i center*/
     text-decoration: none;
-
-
+    /*underline vises ikke */
 }
 
 .solbriller img {
@@ -919,10 +791,7 @@ aside {
 
     nav a:hover {
         border-right: #AAA69B solid 2px;
-
     }
-
-
 
 
     .tilbage {
@@ -931,16 +800,12 @@ aside {
         width: 80px;
         display: flex;
         cursor: pointer;
-
-
     }
 
     button:hover {
         transition: .2s;
         transform: scale(1.1);
-
     }
-
 
 
 
@@ -951,7 +816,6 @@ aside {
 
     .datacontainer {
         margin: 0 auto;
-
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         grid-gap: 10px;
