@@ -4,7 +4,7 @@
 }
 
 img {
-    100%;
+    width: 100%;
 }
 
 body {
@@ -209,11 +209,13 @@ nav a {
 /*-----LANDING PAGE-----*/
 
 
-
+#splash_container img {
+    width: 100%;
+}
 
 #splash_container {
 
-    height: 600px;
+    height: 620px;
     position: relative;
 }
 
