@@ -520,7 +520,7 @@ h4 {
 /*-----ABOUT-----*/
 
 .about_image {
-    background-image: url(billeder/aboutimage_mobil.jpg);
+    background-image: url(billeder/aboutimageMOBIL.jpg);
     background-repeat: no-repeat;
     height: 500px;
     width: 100vw;
@@ -1183,6 +1183,15 @@ aside {
         text-align: center;
         padding: 10px;
         font-size: 1.7rem;
+
+    }
+
+
+    .about_image {
+        background-image: url(billeder/aboutimage5.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
 
     }
 
