@@ -213,7 +213,7 @@ nav a {
 
 #splash_container {
 
-    height: 65vh;
+    height: 600px;
     position: relative;
 }
 
@@ -506,7 +506,7 @@ h4 {
 /*-----ABOUT-----*/
 
 .about_image {
-    background-image: url(billeder/aboutimage_mobil.jpg);
+    background-image: url(billeder/aboutimageMOBIL.jpg);
     background-repeat: no-repeat;
     height: 500px;
     width: 100vw;
@@ -1170,6 +1170,15 @@ aside {
         padding: 1vw 20vw;
         font-size: 1.3rem;
         line-height: 1.8rem;
+    }
+
+
+    .about_image {
+        background-image: url(billeder/aboutimage5.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+
     }
 
     footer {
