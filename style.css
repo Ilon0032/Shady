@@ -612,6 +612,7 @@ h4 {
 .contact_text {
     border: none;
     padding: 15vw;
+
 }
 
 .contact_text h1,
@@ -623,6 +624,7 @@ h4 {
 .about_text p {
     text-align: center;
     margin: 10px;
+
 }
 
 
@@ -690,7 +692,7 @@ aside {
 
 
 #kontakt p {
-    margin: 5 5 10px 0;
+    margin: 5px 5px 10px 0px;
     font-family: 'Raleway', sans-serif;
     font-size: 6px;
 }
@@ -1005,7 +1007,7 @@ aside {
     .about_text p {
         text-align: center;
         margin: 10px;
-        font-size: 15px;
+        font-size: 20px;
     }
 
 
@@ -1050,7 +1052,7 @@ aside {
     .contact_text p {
         text-align: center;
         margin: 10px;
-        font-size: 15px;
+        font-size: 20px;
     }
 
 
