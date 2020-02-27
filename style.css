@@ -32,6 +32,7 @@ h3,
 h4,
 p {
     font-family: 'helveticaneueregular';
+    letter-spacing: 0.07rem;
 }
 
 a,
@@ -500,39 +501,6 @@ h4 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----SINGLE VIEW SLUT-----*/
 
 /*-----ABOUT-----*/
@@ -841,6 +809,7 @@ aside {
 
 
 
+
     /********* HOME ********/
 
     #landing_page {
@@ -998,6 +967,7 @@ aside {
     #detalje h3 {
         font-size: 2rem;
     }
+
 
     /*------------mediaquery single view SLUT----------*/
 
@@ -1176,9 +1146,8 @@ aside {
 
     #detalje img {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%
+        height: 40vw;
+
     }
 
     #detalje h1 {
@@ -1198,9 +1167,9 @@ aside {
 
     #detalje h4 {
         text-align: center;
-        padding: 10px;
-        font-size: 1.7rem;
-
+        padding: 1vw 20vw;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
     }
 
     footer {
@@ -1245,9 +1214,9 @@ aside {
 
     #detalje h4 {
         text-align: center;
-        padding: 10px;
+        padding: 1vw 20vw;
         font-size: 1.2rem;
-
+        line-height: 1.8rem;
     }
 
     #detalje h2 {
