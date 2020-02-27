@@ -688,10 +688,9 @@ footer {
 
 .kontakt_titel {
 
-    text-transform: uppercase;
 
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
 
 
 }
@@ -707,7 +706,7 @@ aside {
 #kontakt p {
     margin: 5 5 10px 0;
     font-family: 'Raleway', sans-serif;
-    font-size: 10px;
+    font-size: 6px;
 }
 
 .kontakt_img {
@@ -1093,22 +1092,22 @@ aside {
     }
 
     .kontakt_titel {
-        font-size: 20px;
-        text-transform: uppercase;
-        font-family: 'Montserrat', sans-serif;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
     }
 
     #kontakt p {
         margin: 0 0 10px 0;
         font-family: 'Raleway', sans-serif;
-
+        font-size: 10px
     }
 
     .adresse,
     aside {
 
         margin: 5px 10px;
-        padding: 5px;
+        padding: 10px;
 
     }
 
