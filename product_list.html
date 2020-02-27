@@ -42,6 +42,7 @@
 
 
     </header>
+    <!--filteringsknapper med data attributter-->
     <section id="ekstramenu">
         <h1>All</h1>
         <nav>
@@ -130,7 +131,7 @@
                     let klon = solbrillerTemplate.cloneNode(true).content;
                     klon.querySelector("h1").textContent = sol.gsx$navn.$t;
                     klon.querySelector("img").src = `billeder/small/${sol.gsx$billede.$t}_small.jpg`;
-                    klon.querySelector("h2").textContent = sol.gsx$pris.$t + " $";
+                    //                    klon.querySelector("h2").textContent = sol.gsx$pris.$t + " $";
                     klon.querySelector("h3").textContent = sol.gsx$kategori.$t;
 
                     klon.querySelector("h4").textContent = sol.gsx$kort.$t;
@@ -168,8 +169,11 @@
             visSolbriller();
 
         }
+
     </script>
 
 
 
-</body></html>
+</body>
+
+</html>
