@@ -520,9 +520,9 @@ h4 {
 /*-----ABOUT-----*/
 
 .about_image {
-    background-image: url(billeder/aboutimage5.jpg);
+    background-image: url(billeder/aboutimage_mobil.jpg);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 500px;
     width: 100vw;
 
     background-repeat: no-repeat;
