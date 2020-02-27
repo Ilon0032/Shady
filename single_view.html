@@ -119,7 +119,7 @@
                 if (sol.gsx$id.$t == id) {
                     detalje.querySelector("h1").textContent = sol.gsx$navn.$t;
                     detalje.querySelector("img").src = `billeder/large/${sol.gsx$billede.$t}_large.jpg`;
-                    detalje.querySelector("h2").textContent = sol.gsx$pris.$t + " $";
+                    //                    detalje.querySelector("h2").textContent = sol.gsx$pris.$t + " $";
                     detalje.querySelector("h3").textContent = sol.gsx$kategori.$t;
                     detalje.querySelector("h4").textContent = sol.gsx$lang.$t;
 
@@ -129,5 +129,8 @@
                 }
             });
         }
+
     </script>
-</body></html>
+</body>
+
+</html>
